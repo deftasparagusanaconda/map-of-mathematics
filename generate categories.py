@@ -13,14 +13,15 @@ def generate_table(category):
 \t\t\t</tr>
 ''' for entry in entries) + '\t\t</table>'
 
-def generate_html(table): 
+def generate_html(category_name, table): 
     return f'''<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<meta name="description" content="daa's map of mathematics">
-		<title>dtgm</title>
+        <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+		<title>{category_name} · daa's map of mathematics</title>
 	</head>
 	<body>
 		<header>
@@ -38,4 +39,4 @@ def generate_html(table):
 
 for category_name, category in zip(category_names, the_stuff):
     with open(f'{category_name}/index.html', 'w') as file:
-        file.write(generate_html(generate_table(category)))
+        file.write(generate_html(category_name, generate_table(category)))

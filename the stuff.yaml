@@ -1,76 +1,76 @@
 - fields:
-  - name: Algebra
+  - name: algebra
     link: https://en.wikipedia.org/wiki/Algebra
-    desc: studies abstract structures and symbolic manipulation
-  - name: Analysis
+    desc: abstract structures, symbolic manipulation
+  - name: analysis
     link: https://en.wikipedia.org/wiki/Mathematical_analysis
-    desc: studies limits, continuity, differentiation, integration and related ideas rigorously
-  - name: Geometry
+    desc: limits, continuity, differentiation, integration
+  - name: geometry
     link: https://en.wikipedia.org/wiki/Geometry
-    desc: studies shape, space and geometric structures
-  - name: Topology
+    desc: shape, space, geometric structures
+  - name: topology
     link: https://en.wikipedia.org/wiki/Topology
-    desc: investigates properties preserved under continuous deformation
-  - name: Number Theory
+    desc: properties preserved under continuous deformation
+  - name: number theory
     link: https://en.wikipedia.org/wiki/Number_theory
-    desc: explores integers, primes and arithmetic
-  - name: Combinatorics
+    desc: integers, primes, arithmetic
+  - name: combinatorics
     link: https://en.wikipedia.org/wiki/Combinatorics
-    desc: counts, arranges and analyses discrete structures
-  - name: Logic
+    desc: count/arrange/analyse discrete structures
+  - name: logic
     link: https://en.wikipedia.org/wiki/Mathematical_logic
-    desc: studies formal reasoning, proof, computability and the foundations of mathematics
-  - name: Probability Theory
+    desc: formal reasoning, proof, computability, foundations of mathematics
+  - name: probability theory
     link: https://en.wikipedia.org/wiki/Probability_theory
-    desc: mathematical treatment of randomness and uncertainty
-  - name: Statistics
+    desc: randomness and uncertainty
+  - name: statistics
     link: https://en.wikipedia.org/wiki/Statistics
-    desc: draws conclusions from data using mathematical models
-  - name: Differential Equations
+    desc: draw conclusions from data using mathematical models
+  - name: differential equations
     link: https://en.wikipedia.org/wiki/Differential_equation
-    desc: models continuously changing systems
-  - name: Dynamical Systems
+    desc: model continuously changing systems
+  - name: dynamical systems
     link: https://en.wikipedia.org/wiki/Dynamical_system
-    desc: studies the long-term behaviour of evolving systems
-  - name: Numerical Analysis
+    desc: long-term behaviour of evolving systems
+  - name: numerical analysis
     link: https://en.wikipedia.org/wiki/Numerical_analysis
-    desc: designs algorithms for approximating mathematical problems
-  - name: Discrete Mathematics
+    desc: algorithms for approximating mathematical problems
+  - name: discrete mathematics
     link: https://en.wikipedia.org/wiki/Discrete_mathematics
-    desc: studies finite or countable structures rather than continuously varying quantities
-  - name: Graph Theory
+    desc: finite/countable structures versus continuously varying quantities
+  - name: graph theory
     link: https://en.wikipedia.org/wiki/Graph_theory
-    desc: studies networks of vertices and edges
-  - name: Category Theory
+    desc: networks of vertices and edges
+  - name: category theory
     link: https://en.wikipedia.org/wiki/Category_theory
-    desc: unifies mathematics through objects and morphisms
-  - name: Set Theory
+    desc: unify mathematics through objects and morphisms
+  - name: set theory
     link: https://en.wikipedia.org/wiki/Set_theory
-    desc: foundational language for modern mathematics
-  - name: Linear Algebra
+    desc: foundational language for modern mathematicians
+  - name: linear algebra
     link: https://en.wikipedia.org/wiki/Linear_algebra
-    desc: studies vector spaces, matrices, linear maps and systems of linear equations
-  - name: Abstract Algebra
+    desc: vector spaces, matrices, linear maps, systems of linear equations
+  - name: abstract algebra
     link: https://en.wikipedia.org/wiki/Abstract_algebra
-    desc: studies structures such as groups, rings, fields and modules
-  - name: Measure Theory
+    desc: structures like groups, rings, fields, modules
+  - name: measure theory
     link: https://en.wikipedia.org/wiki/Measure_%28mathematics%29
-    desc: generalises notions such as length, area, volume and probability
-  - name: Complex Analysis
+    desc: generalises notions like length, area, volume, probability
+  - name: complex analysis
     link: https://en.wikipedia.org/wiki/Complex_analysis
-    desc: studies differentiable functions of a complex variable
-  - name: Functional Analysis
+    desc: differentiable functions of a complex variable
+  - name: functional analysis
     link: https://en.wikipedia.org/wiki/Functional_analysis
-    desc: studies infinite-dimensional vector spaces and the operators acting on them
-  - name: Optimization
+    desc: infinite-dimensional vector spaces, and the operators acting on them
+  - name: optimization
     link: https://en.wikipedia.org/wiki/Mathematical_optimization
-    desc: finds the best solution under constraints
-  - name: Game Theory
+    desc: find the best solution under constraints
+  - name: game theory
     link: https://en.wikipedia.org/wiki/Game_theory
     desc: strategic interaction between rational agents
-  - name: Mathematical Physics
+  - name: mathematical physics
     link: https://en.wikipedia.org/wiki/Mathematical_physics
-    desc: applies rigorous mathematics to physical theories
+    desc: rigorous mathematics to physical theories
 - books:
   - name: Principia Mathematica
     link: https://en.wikipedia.org/wiki/Principia_Mathematica
@@ -147,28 +147,28 @@
 - websites:
   - name: Wikipedia
     link: https://wikipedia.org
-    desc: provides broad introductory references for mathematical concepts and culture
+    desc: broad introductory references for mathematical concepts and culture
   - name: MathWorld
     link: https://mathworld.wolfram.com/
-    desc: provides concise encyclopaedic articles on a wide range of mathematical topics
+    desc: concise encyclopaedic articles on a wide range of mathematical topics
   - name: OEIS
     link: https://oeis.org/
-    desc: catalogues integer sequences together with formulas, references and related sequences
+    desc: integer sequences together with formulas, references and related sequences
   - name: DLMF
     link: https://dlmf.nist.gov/
-    desc: provides an authoritative reference for special functions and their identities
+    desc: authoritative reference for special functions and their identities
   - name: PlanetMath
     link: https://planetmath.org/
-    desc: hosts a community-written encyclopaedia of mathematics
+    desc: community-written encyclopaedia of mathematics
   - name: Math Stack Exchange
     link: https://math.stackexchange.com/
-    desc: hosts questions and answers across nearly every level of mathematics
+    desc: questions and answers across nearly every level of mathematics
   - name: MathOverflow
     link: https://mathoverflow.net/
-    desc: hosts research-level mathematical questions and discussion
+    desc: research-level mathematical questions and discussion
   - name: arXiv
     link: https://arxiv.org/
-    desc: hosts freely accessible preprints across mathematics and neighbouring sciences
+    desc: freely accessible preprints across mathematics and neighbouring sciences
   - name: zbMATH Open
     link: https://zbmath.org/
     desc: indexes and reviews mathematical literature in an open database
@@ -177,119 +177,119 @@
     desc: indexes and reviews published mathematical research
   - name: MacTutor
     link: https://mathshistory.st-andrews.ac.uk/
-    desc: documents the history of mathematics through biographies and topic essays
+    desc: history of mathematics through biographies and topic essays
   - name: Project Euclid
     link: https://projecteuclid.org/
-    desc: hosts journals and monographs in mathematics and statistics
+    desc: journals and monographs in mathematics and statistics
   - name: Google Books
     link: https://books.google.com/
     desc: searches digitised books and previews mathematical literature
   - name: Internet Archive
     link: https://archive.org/
-    desc: preserves digitised books, papers and other historical mathematical material
+    desc: preserves digitised books, papers, other historical mathematical material
   - name: SpringerLink
     link: https://link.springer.com/
-    desc: hosts a large catalogue of mathematical books, chapters and journals
+    desc: large catalogue of mathematical books, chapters, journals
   - name: Encyclopedia of Mathematics
     link: https://encyclopediaofmath.org/
-    desc: provides an open reference covering a broad range of mathematical topics
+    desc: open reference covering a broad range of mathematical topics
   - name: ProofWiki
     link: https://proofwiki.org/
-    desc: collects definitions, axioms and proofs in a collaboratively maintained wiki
+    desc: definitions, axioms, proofs in a collaboratively maintained wiki
   - name: LMFDB
     link: https://www.lmfdb.org/
-    desc: catalogues explicit data about L-functions, modular forms and related objects
+    desc: explicit data about L-functions, modular forms, related objects
   - name: Cut the Knot
     link: https://www.cut-the-knot.org/
-    desc: collects recreational mathematics, demonstrations and proofs
+    desc: recreational mathematics, demonstrations, proofs
   - name: NRICH
     link: https://nrich.maths.org/
-    desc: publishes exploratory mathematical problems for school and university learners
+    desc: exploratory mathematical problems for school and university learners
   - name: WolframAlpha
     link: https://www.wolframalpha.com/
     desc: answers computational questions using curated data and symbolic mathematics
   - name: Mathematics LibreTexts
     link: https://math.libretexts.org/
-    desc: hosts openly licensed textbooks and notes across mathematics
+    desc: openly licensed textbooks and notes across mathematics
   - name: Wolfram Demonstrations
     link: https://demonstrations.wolfram.com/
-    desc: hosts interactive computational demonstrations built with Wolfram technology
+    desc: interactive computational demonstrations built with Wolfram technology
   - name: Lean Community
     link: https://leanprover-community.github.io/
     desc: collects documentation, libraries and community resources for formalised mathematics in Lean
 - softwares:
   - name: Desmos
     link: https://www.desmos.com/calculator
-    desc: provides an interactive graphing calculator in the browser
+    desc: interactive graphing calculator in the browser
   - name: GeoGebra
     link: https://www.geogebra.org/
-    desc: combines interactive geometry, algebra, calculus and statistics tools
+    desc: interactive geometry, algebra, calculus, statistics tools
   - name: SageMath
     link: https://www.sagemath.org/
     desc: combines many open-source mathematical systems behind a common interface
   - name: Mathematica
     link: https://www.wolfram.com/mathematica/
-    desc: performs symbolic, numerical and visual mathematical computation
+    desc: symbolic, numerical, visual mathematical computation
   - name: MATLAB
     link: https://www.mathworks.com/products/matlab.html
-    desc: provides a numerical computing environment centred on arrays and matrices
+    desc: numerical computing environment centred on arrays and matrices
   - name: GNU Octave
     link: https://octave.org/
-    desc: provides a free numerical computing language broadly compatible with MATLAB
+    desc: free numerical computing language broadly compatible with MATLAB
   - name: Maple
     link: https://www.maplesoft.com/products/maple/
-    desc: performs symbolic and numerical computation through a computer algebra system
+    desc: symbolic and numerical computation through a computer algebra system
   - name: SymPy
     link: https://www.sympy.org/
-    desc: provides symbolic mathematics within the Python ecosystem
+    desc: symbolic mathematics in python
   - name: NumPy
     link: https://numpy.org/
-    desc: provides efficient multidimensional arrays and numerical operations for Python
+    desc: efficient multidimensional arrays and numerical operations in python
   - name: SciPy
     link: https://scipy.org/
-    desc: provides scientific algorithms for optimisation, integration, statistics and more
+    desc: scientific algorithms for optimisation, integration, statistics, … in python
   - name: Lean
     link: https://lean-lang.org/
-    desc: combines a functional programming language with an interactive theorem prover
+    desc: functional programming language and interactive theorem prover
   - name: Rocq (Coq)
     link: https://rocq-prover.org/
-    desc: supports formal proofs and verified programs through dependent type theory
+    desc: formal proofs and verified programs with dependent type theory
   - name: Isabelle
     link: https://isabelle.in.tum.de/
-    desc: supports interactive theorem proving in several formal logics
+    desc: interactive theorem proving in several formal logics
   - name: GAP
     link: https://www.gap-system.org/
-    desc: specialises in computational discrete algebra, especially group theory
+    desc: computational discrete algebra (especially group theory)
   - name: PARI/GP
     link: https://pari.math.u-bordeaux.fr/
-    desc: specialises in fast computation for number theory
+    desc: fast computation for number theory
   - name: Maxima
     link: https://maxima.sourceforge.io/
-    desc: provides an open-source system for symbolic mathematical computation
+    desc: open-source system for symbolic mathematical computation
   - name: Julia
     link: https://julialang.org/
-    desc: provides a high-performance language designed for numerical and scientific computing
+    desc: high-performance language designed for numerical and scientific computing
   - name: R
     link: https://www.r-project.org/
-    desc: provides a language and environment for statistics and data analysis
+    desc: language/environment for statistics and data analysis
   - name: TikZ
     link: https://tikz.net/
-    desc: draws mathematical diagrams programmatically within LaTeX
+    desc: draw mathematical diagrams programmatically within LaTeX
   - name: Asymptote
     link: https://asymptote.sourceforge.io/
-    desc: produces programmable vector graphics designed for technical figures
+    desc: produce programmable vector graphics designed for technical figures
   - name: Jupyter
     link: https://jupyter.org/
-    desc: combines executable code, mathematics and prose in interactive notebooks
+    desc: combine executable code, mathematics, prose in interactive notebooks
   - name: LaTeX
     link: https://www.latex-project.org/
-    desc: typesets mathematical and technical documents through a programmable markup system
+    desc: typeset mathematical and technical documents through a programmable markup system
   - name: Inkscape
     link: https://inkscape.org/
-    desc: creates vector diagrams suitable for mathematical and scientific figures
+    desc: create vector diagrams suitable for mathematical and scientific figures
   - name: Gnuplot
     link: http://www.gnuplot.info/
-    desc: plots mathematical functions and numerical data from scripts or an interactive shell
+    desc: plot mathematical functions and numerical data from scripts or an interactive shell
 - symbols:
   - name: ∀
     link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%80%20mathematics
@@ -512,28 +512,28 @@
 - problems:
   - name: Riemann Hypothesis
     link: https://en.wikipedia.org/wiki/Riemann_hypothesis
-    desc: asks whether every nontrivial zero of the zeta function has real part one half
+    desc: does every nontrivial zero of the zeta function have real part one half?
   - name: P versus NP
     link: https://en.wikipedia.org/wiki/P_versus_NP_problem
-    desc: asks whether every efficiently verifiable problem is also efficiently solvable
+    desc: is every efficiently verifiable problem also efficiently solvable?
   - name: Goldbach's Conjecture
     link: https://en.wikipedia.org/wiki/Goldbach's_conjecture
-    desc: claims that every even integer greater than two is the sum of two primes
+    desc: is every even integer greater than two the sum of two primes?
   - name: Twin Prime Conjecture
     link: https://en.wikipedia.org/wiki/Twin_prime_conjecture
-    desc: claims that infinitely many pairs of primes differ by two
+    desc: are there infinitely many pairs of primes that differ by two?
   - name: Collatz Conjecture
     link: https://en.wikipedia.org/wiki/Collatz_conjecture
-    desc: claims that repeatedly applying a simple parity-based rule eventually reaches one
+    desc: does repeatedly applying a simple parity-based rule eventually reach one?
   - name: Birch and Swinnerton-Dyer Conjecture
     link: https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture
     desc: relates rational points on an elliptic curve to the behaviour of its L-function
   - name: Hodge Conjecture
     link: https://en.wikipedia.org/wiki/Hodge_conjecture
-    desc: asks which cohomology classes on projective varieties arise from algebraic cycles
+    desc: which cohomology classes on projective varieties arise from algebraic cycles?
   - name: Navier-Stokes Existence
     link: https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness
-    desc: asks whether smooth three-dimensional Navier–Stokes solutions always exist globally
+    desc: do smooth three-dimensional Navier–Stokes solutions always exist globally?
   - name: Yang-Mills Mass Gap
     link: https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap
     desc: asks for a rigorous quantum Yang–Mills theory with a positive mass gap
@@ -542,119 +542,119 @@
     desc: relates the additive equation a + b = c to the distinct prime factors involved
   - name: Four Colour Theorem
     link: https://en.wikipedia.org/wiki/Four_color_theorem
-    desc: states that every planar map can be coloured with at most four colours
+    desc: can every planar map be coloured with at most four colours?
   - name: Fermat's Last Theorem
     link: https://en.wikipedia.org/wiki/Fermat's_Last_Theorem
-    desc: states that no positive integers satisfy xⁿ + yⁿ = zⁿ for n greater than two
+    desc: are there no positive integers that satisfy xⁿ + yⁿ = zⁿ for n greater than two?
   - name: Kepler Conjecture
     link: https://en.wikipedia.org/wiki/Kepler_conjecture
-    desc: states that no equal-sphere packing is denser than the face-centred cubic packing
+    desc: is no equal-sphere packing denser than the face-centred cubic packing?
   - name: Hilbert's Problems
     link: https://en.wikipedia.org/wiki/Hilbert's_problems
-    desc: form a programme of twenty-three problems that shaped twentieth-century mathematics
+    desc: a programme of twenty-three problems that shaped twentieth-century mathematics
   - name: Seven Bridges of Königsberg
     link: https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg
     desc: asks for a walk crossing each of seven bridges exactly once
   - name: Basel Problem
     link: https://en.wikipedia.org/wiki/Basel_problem
-    desc: asks for the exact sum of the reciprocals of the positive square numbers
+    desc: the exact sum of the reciprocals of the positive square numbers
   - name: Buffon's Needle
     link: https://en.wikipedia.org/wiki/Buffon's_needle_problem
-    desc: asks for the probability that a randomly dropped needle crosses a parallel line
+    desc: the probability that a randomly dropped needle crosses a parallel line
   - name: Traveling Salesman Problem
     link: https://en.wikipedia.org/wiki/Travelling_salesman_problem
-    desc: asks for the shortest tour visiting each given location exactly once
+    desc: the shortest tour visiting each given location exactly once
   - name: Stable Marriage Problem
     link: https://en.wikipedia.org/wiki/Stable_marriage_problem
-    desc: asks for a matching with no pair who would both prefer one another
+    desc: a matching with no pair who would both prefer one another
   - name: Towers of Hanoi
     link: https://en.wikipedia.org/wiki/Tower_of_Hanoi
-    desc: asks how to move a stack of discs under a restrictive recursive rule
+    desc: how to move a stack of discs under a restrictive recursive rule?
   - name: Knight's Tour
     link: https://en.wikipedia.org/wiki/Knight's_tour
     desc: asks for a knight's route visiting every square of a chessboard exactly once
   - name: Happy Ending Problem
     link: https://en.wikipedia.org/wiki/Happy_ending_problem
-    desc: asks how many planar points force a subset in convex position
+    desc: how many planar points force a subset in convex position?
   - name: Kakeya Conjecture
     link: https://en.wikipedia.org/wiki/Kakeya_conjecture
-    desc: asks how small a set containing a unit segment in every direction can be
+    desc: how small can a set be which contains a unit segment in every direction?
   - name: Hadwiger Conjecture
     link: https://en.wikipedia.org/wiki/Hadwiger_conjecture
     desc: relates graph colouring to the existence of complete graph minors
 - journals:
   - name: Annals of Mathematics
     link: https://annals.math.princeton.edu/
-    desc: publishes highly selective research across pure mathematics
+    desc: highly selective research across pure mathematics
   - name: Inventiones Mathematicae
     link: https://link.springer.com/journal/222
-    desc: publishes influential research across major areas of mathematics
+    desc: influential research across major areas of mathematics
   - name: Journal of the AMS
     link: https://www.ams.org/journals/jams/
-    desc: publishes broad, high-level research under the American Mathematical Society
+    desc: broad, high-level research under the American Mathematical Society
   - name: Bulletin of the AMS
     link: https://www.ams.org/journals/bull/
-    desc: publishes surveys, reviews and expository articles for a broad mathematical audience
+    desc: surveys, reviews and expository articles for a broad mathematical audience
   - name: Transactions of the AMS
     link: https://www.ams.org/journals/tran/
-    desc: publishes substantial research across pure and applied mathematics
+    desc: substantial research across pure and applied mathematics
   - name: SIAM Journal on Applied Mathematics
     link: https://epubs.siam.org/journal/smjmap
-    desc: publishes mathematical work motivated by applications
+    desc: mathematical work motivated by applications
   - name: Journal of Number Theory
     link: https://www.sciencedirect.com/journal/journal-of-number-theory
-    desc: publishes research across analytic, algebraic and computational number theory
+    desc: research across analytic, algebraic and computational number theory
   - name: Discrete Mathematics
     link: https://www.sciencedirect.com/journal/discrete-mathematics
-    desc: publishes research in combinatorics, graph theory and discrete structures
+    desc: research in combinatorics, graph theory and discrete structures
   - name: Topology and its Applications
     link: https://www.sciencedirect.com/journal/topology-and-its-applications
-    desc: publishes research connecting topology with other mathematical areas
+    desc: research connecting topology with other mathematical areas
   - name: Advances in Mathematics
     link: https://www.sciencedirect.com/journal/advances-in-mathematics
-    desc: publishes significant research across a broad range of mathematics
+    desc: significant research across a broad range of mathematics
   - name: Communications on Pure and Applied Mathematics
     link: https://onlinelibrary.wiley.com/journal/10970312
-    desc: publishes influential research in analysis and applied mathematics
+    desc: influential research in analysis and applied mathematics
   - name: Acta Mathematica
     link: https://www.mittag-leffler.se/publications/acta-mathematica/
-    desc: publishes major research papers across pure mathematics
+    desc: major research papers across pure mathematics
   - name: Journal of Algebra
     link: https://www.sciencedirect.com/journal/journal-of-algebra
-    desc: publishes research across algebra and its applications
+    desc: research across algebra and its applications
   - name: Mathematical Proceedings of the Cambridge Philosophical Society
     link: https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society
-    desc: publishes original research across pure and applied mathematics
+    desc: original research across pure and applied mathematics
   - name: American Mathematical Monthly
     link: https://maa.org/press/periodicals/american-mathematical-monthly
-    desc: publishes accessible exposition, problems and commentary for mathematicians and students
+    desc: accessible exposition, problems and commentary for mathematicians and students
   - name: Mathematics Magazine
     link: https://maa.org/press/periodicals/mathematics-magazine
-    desc: publishes approachable exposition for undergraduate mathematics
+    desc: approachable exposition for undergraduate mathematics
   - name: Notices of the AMS
     link: https://www.ams.org/notices/
-    desc: publishes mathematical news, essays, surveys and professional commentary
+    desc: mathematical news, essays, surveys and professional commentary
   - name: Bulletin of the LMS
     link: https://londmathsoc.onlinelibrary.wiley.com/journal/14692120
-    desc: publishes research articles, surveys and mathematical society news
+    desc: research articles, surveys and mathematical society news
   - name: Proceedings of the LMS
     link: https://londmathsoc.onlinelibrary.wiley.com/journal/1460244x
-    desc: publishes research papers across pure mathematics
+    desc: research papers across pure mathematics
   - name: Duke Mathematical Journal
     link: https://projecteuclid.org/journals/duke-mathematical-journal
-    desc: publishes high-level research across pure mathematics
+    desc: high-level research across pure mathematics
   - name: Compositio Mathematica
     link: https://www.cambridge.org/core/journals/compositio-mathematica
-    desc: publishes research in the mainstream of pure mathematics
+    desc: research in the mainstream of pure mathematics
   - name: Mathematical Reviews
     link: https://www.ams.org/publications/math-reviews/math-reviews
     desc: reviews and indexes published mathematical literature through MathSciNet
   - name: Experimental Mathematics
     link: https://www.tandfonline.com/journals/uexm20
-    desc: publishes research driven by computation, experimentation and explicit examples
+    desc: research driven by computation, experimentation and explicit examples
   - name: The Fibonacci Quarterly
     link: https://www.fq.math.ca/
-    desc: publishes research on Fibonacci numbers and related integer sequences
+    desc: research on Fibonacci numbers and related integer sequences
 - organisations:
   - name: International Mathematical Union
     link: https://www.mathunion.org/
@@ -804,76 +804,76 @@
 - awards:
   - name: Fields Medal
     link: https://en.wikipedia.org/wiki/Fields_Medal
-    desc: recognises outstanding mathematical achievement by researchers under the age of forty
+    desc: outstanding mathematical achievement by researchers under the age of forty
   - name: Abel Prize
     link: https://en.wikipedia.org/wiki/Abel_Prize
-    desc: recognises major lifetime contributions to mathematics
+    desc: major lifetime contributions to mathematics
   - name: Wolf Prize in Mathematics
     link: https://en.wikipedia.org/wiki/Wolf_Prize_in_Mathematics
-    desc: recognises outstanding achievement in mathematics
+    desc: outstanding achievement in mathematics
   - name: Chern Medal
     link: https://en.wikipedia.org/wiki/Chern_Medal
-    desc: recognises an exceptional lifetime of accomplishment in mathematics
+    desc: an exceptional lifetime of accomplishment in mathematics
   - name: Breakthrough Prize in Mathematics
     link: https://en.wikipedia.org/wiki/Breakthrough_Prize_in_Mathematics
-    desc: recognises major recent achievements in mathematics
+    desc: major recent achievements in mathematics
   - name: Shaw Prize in Mathematical Sciences
     link: https://en.wikipedia.org/wiki/Shaw_Prize
-    desc: recognises distinguished work in the mathematical sciences
+    desc: distinguished work in the mathematical sciences
   - name: Gauss Prize
     link: https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss_Prize
-    desc: recognises mathematical work with significant impact beyond mathematics
+    desc: mathematical work with significant impact beyond mathematics
   - name: Leelavati Award
     link: https://en.wikipedia.org/wiki/Leelavati_Award
-    desc: recognises exceptional public outreach in mathematics
+    desc: exceptional public outreach in mathematics
   - name: Ruth Lyttle Satter Prize in Mathematics
     link: https://en.wikipedia.org/wiki/Ruth_Lyttle_Satter_Prize_in_Mathematics
-    desc: recognises outstanding research by a woman in mathematics
+    desc: outstanding research by a woman in mathematics
   - name: Abacus Medal
     link: https://en.wikipedia.org/wiki/Abacus_Medal
-    desc: recognises outstanding contributions to mathematical aspects of information science
+    desc: outstanding contributions to mathematical aspects of information science
   - name: Rolf Schock Prize in Mathematics
     link: https://en.wikipedia.org/wiki/Rolf_Schock_Prizes
-    desc: recognises distinguished work in mathematics
+    desc: distinguished work in mathematics
   - name: SASTRA Ramanujan Prize
     link: https://en.wikipedia.org/wiki/SASTRA_Ramanujan_Prize
-    desc: recognises young mathematicians working in areas influenced by Ramanujan
+    desc: young mathematicians working in areas influenced by Ramanujan
   - name: Cole Prize in Algebra
     link: https://en.wikipedia.org/wiki/Cole_Prize
-    desc: recognises notable research in algebra
+    desc: notable research in algebra
   - name: Cole Prize in Number Theory
     link: https://en.wikipedia.org/wiki/Cole_Prize
-    desc: recognises notable research in number theory
+    desc: notable research in number theory
   - name: Bôcher Memorial Prize
     link: https://en.wikipedia.org/wiki/B%C3%B4cher_Memorial_Prize
-    desc: recognises notable research in analysis
+    desc: notable research in analysis
   - name: Veblen Prize
     link: https://en.wikipedia.org/wiki/Oswald_Veblen_Prize_in_Geometry
-    desc: recognises notable research in geometry or topology
+    desc: notable research in geometry or topology
   - name: Steele Prize
     link: https://en.wikipedia.org/wiki/Leroy_P._Steele_Prize
-    desc: recognises mathematical exposition, research or lifetime achievement
+    desc: mathematical exposition, research or lifetime achievement
   - name: Nemmers Prize in Mathematics
     link: https://en.wikipedia.org/wiki/Nemmers_Prize_in_Mathematics
-    desc: recognises work of lasting significance in mathematics
+    desc: work of lasting significance in mathematics
   - name: Sylvester Medal
     link: https://en.wikipedia.org/wiki/Sylvester_Medal
-    desc: recognises major contributions to mathematical research
+    desc: major contributions to mathematical research
   - name: De Morgan Medal
     link: https://en.wikipedia.org/wiki/De_Morgan_Medal
-    desc: recognises outstanding contributions to mathematics
+    desc: outstanding contributions to mathematics
   - name: Adams Prize
     link: https://en.wikipedia.org/wiki/Adams_Prize
-    desc: recognises distinguished mathematical research by a UK-based early-career researcher
+    desc: distinguished mathematical research by a UK-based early-career researcher
   - name: Ramanujan Prize
     link: https://en.wikipedia.org/wiki/ICTP_Ramanujan_Prize
-    desc: recognises young mathematicians from developing countries
+    desc: young mathematicians from developing countries
   - name: Clay Research Award
     link: https://en.wikipedia.org/wiki/Clay_Research_Award
-    desc: recognises major breakthroughs in mathematical research
+    desc: major breakthroughs in mathematical research
   - name: L'Oréal-UNESCO For Women in Science Award
     link: https://en.wikipedia.org/wiki/L'Or%C3%A9al-UNESCO_For_Women_in_Science_Awards
-    desc: recognises distinguished women researchers across the sciences including mathematics
+    desc: distinguished women researchers across the sciences including mathematics
 - competitions:
   - name: International Mathematical Olympiad
     link: https://www.imo-official.org/
