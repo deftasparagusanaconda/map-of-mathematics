@@ -1,25 +1,49 @@
 - fields:
+  - name: logic
+    link: https://en.wikipedia.org/wiki/Mathematical_logic
+    desc: formal reasoning, proof, computability, foundations of mathematics
+  - name: set theory
+    link: https://en.wikipedia.org/wiki/Set_theory
+    desc: foundational language for modern mathematicians
+  - name: category theory
+    link: https://en.wikipedia.org/wiki/Category_theory
+    desc: unify mathematics through objects and morphisms
   - name: algebra
     link: https://en.wikipedia.org/wiki/Algebra
     desc: abstract structures, symbolic manipulation
-  - name: analysis
-    link: https://en.wikipedia.org/wiki/Mathematical_analysis
-    desc: limits, continuity, differentiation, integration
-  - name: geometry
-    link: https://en.wikipedia.org/wiki/Geometry
-    desc: shape, space, geometric structures
-  - name: topology
-    link: https://en.wikipedia.org/wiki/Topology
-    desc: properties preserved under continuous deformation
+  - name: abstract algebra
+    link: https://en.wikipedia.org/wiki/Abstract_algebra
+    desc: structures like groups, rings, fields, modules
+  - name: linear algebra
+    link: https://en.wikipedia.org/wiki/Linear_algebra
+    desc: vector spaces, matrices, linear maps, systems of linear equations
   - name: number theory
     link: https://en.wikipedia.org/wiki/Number_theory
     desc: integers, primes, arithmetic
   - name: combinatorics
     link: https://en.wikipedia.org/wiki/Combinatorics
     desc: count/arrange/analyse discrete structures
-  - name: logic
-    link: https://en.wikipedia.org/wiki/Mathematical_logic
-    desc: formal reasoning, proof, computability, foundations of mathematics
+  - name: graph theory
+    link: https://en.wikipedia.org/wiki/Graph_theory
+    desc: networks of vertices and edges
+  - name: geometry
+    link: https://en.wikipedia.org/wiki/Geometry
+    desc: shape, space, geometric structures
+  - name: topology
+    link: https://en.wikipedia.org/wiki/Topology
+    desc: properties preserved under continuous deformation
+  - name: analysis
+    link: https://en.wikipedia.org/wiki/Mathematical_analysis
+    desc: limits, continuity, differentiation, integration
+  - name: measure theory
+    link: https://en.wikipedia.org/wiki/Measure_%28mathematics%29
+    desc: generalises notions like length, area, volume, probability
+  - name: complex analysis
+    link: https://en.wikipedia.org/wiki/Complex_analysis
+    desc: differentiable functions of a complex variable
+  - name: functional analysis
+    link: https://en.wikipedia.org/wiki/Functional_analysis
+    desc: infinite-dimensional vector spaces, and the operators acting on them
   - name: probability theory
     link: https://en.wikipedia.org/wiki/Probability_theory
     desc: randomness and uncertainty
@@ -35,33 +59,6 @@
   - name: numerical analysis
     link: https://en.wikipedia.org/wiki/Numerical_analysis
     desc: algorithms for approximating mathematical problems
-  - name: discrete mathematics
-    link: https://en.wikipedia.org/wiki/Discrete_mathematics
-    desc: finite/countable structures versus continuously varying quantities
-  - name: graph theory
-    link: https://en.wikipedia.org/wiki/Graph_theory
-    desc: networks of vertices and edges
-  - name: category theory
-    link: https://en.wikipedia.org/wiki/Category_theory
-    desc: unify mathematics through objects and morphisms
-  - name: set theory
-    link: https://en.wikipedia.org/wiki/Set_theory
-    desc: foundational language for modern mathematicians
-  - name: linear algebra
-    link: https://en.wikipedia.org/wiki/Linear_algebra
-    desc: vector spaces, matrices, linear maps, systems of linear equations
-  - name: abstract algebra
-    link: https://en.wikipedia.org/wiki/Abstract_algebra
-    desc: structures like groups, rings, fields, modules
-  - name: measure theory
-    link: https://en.wikipedia.org/wiki/Measure_%28mathematics%29
-    desc: generalises notions like length, area, volume, probability
-  - name: complex analysis
-    link: https://en.wikipedia.org/wiki/Complex_analysis
-    desc: differentiable functions of a complex variable
-  - name: functional analysis
-    link: https://en.wikipedia.org/wiki/Functional_analysis
-    desc: infinite-dimensional vector spaces, and the operators acting on them
   - name: optimization
     link: https://en.wikipedia.org/wiki/Mathematical_optimization
     desc: find the best solution under constraints
@@ -71,381 +68,92 @@
   - name: mathematical physics
     link: https://en.wikipedia.org/wiki/Mathematical_physics
     desc: rigorous mathematics to physical theories
-- books:
-  - name: Principia Mathematica
-    link: https://en.wikipedia.org/wiki/Principia_Mathematica
-    desc: develops a formal foundation for mathematics through symbolic logic
-  - name: Concrete Mathematics
-    link: https://en.wikipedia.org/wiki/Concrete_Mathematics
-    desc: classic bridge between discrete mathematics and computer science
-  - name: Proofs from THE BOOK
-    link: https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK
-    desc: collects proofs chosen for their unusual elegance and clarity
-  - name: How to Solve It
-    link: https://en.wikipedia.org/wiki/How_to_Solve_It
-    desc: timeless guide to mathematical problem solving
-  - name: Calculus
-    link: https://en.wikipedia.org/wiki/Calculus_%28Spivak_book%29
-    desc: introduces calculus through Spivak's rigorous and proof-oriented approach
-  - name: Linear Algebra Done Right
-    link: https://en.wikipedia.org/wiki/Linear_Algebra_Done_Right
-    desc: modern linear algebra from first principles
-  - name: Visual Complex Analysis
-    link: https://en.wikipedia.org/wiki/Visual_Complex_Analysis
-    desc: develops complex analysis through geometric intuition and visual arguments
-  - name: Naive Set Theory
-    link: https://en.wikipedia.org/wiki/Naive_Set_Theory_%28book%29
-    desc: gentle entry into axiomatic set theory
-  - name: Topology
-    link: https://en.wikipedia.org/wiki/Topology_%28Munkres_book%29
-    desc: serves as a standard introduction to point-set and algebraic topology
-  - name: Algebra
-    link: https://en.wikipedia.org/wiki/Algebra_%28Lang_book%29
-    desc: serves as an influential graduate reference for modern algebra
-  - name: Introduction to Algorithms
-    link: https://en.wikipedia.org/wiki/Introduction_to_Algorithms
-    desc: surveys foundational algorithms and the techniques used to analyse them
-  - name: The Princeton Companion to Mathematics
-    link: https://en.wikipedia.org/wiki/The_Princeton_Companion_to_Mathematics
-    desc: surveys the ideas, people and culture of modern mathematics
-  - name: The Art of Computer Programming
-    link: https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming
-    desc: deep exploration of algorithms and discrete mathematics
-  - name: A Book of Abstract Algebra
-    link: https://en.wikipedia.org/wiki/A_Book_of_Abstract_Algebra
-    desc: introduces abstract algebra through accessible exposition and exercises
-  - name: Introduction to Probability
-    link: https://en.wikipedia.org/wiki/Introduction_to_Probability_%28Blitzstein_book%29
-    desc: introduces probability through problems, stories and mathematical reasoning
-  - name: Introduction to Graph Theory
-    link: https://en.wikipedia.org/wiki/Introduction_to_Graph_Theory_%28West_book%29
-    desc: provides a widely used introduction to graph theory
-  - name: Real and Complex Analysis
-    link: https://en.wikipedia.org/wiki/Real_and_Complex_Analysis
-    desc: develops graduate-level real and complex analysis in a unified treatment
-  - name: Elements
-    link: https://en.wikipedia.org/wiki/Euclid%27s_Elements
-    desc: organises classical geometry into definitions, propositions and proofs
-  - name: The Road to Reality
-    link: https://en.wikipedia.org/wiki/The_Road_to_Reality
-    desc: surveys the mathematics underlying modern theoretical physics
-  - name: An Invitation to Modern Number Theory
-    link: https://en.wikipedia.org/wiki/Number_theory
-    desc: introduces several themes and methods from contemporary number theory
-  - name: Category Theory for the Sciences
-    link: https://en.wikipedia.org/wiki/Category_Theory_for_the_Sciences
-    desc: introduces category theory through examples from mathematics and science
-  - name: Generatingfunctionology
-    link: https://en.wikipedia.org/wiki/Generatingfunctionology
-    desc: develops generating functions as tools for solving discrete problems
-  - name: Introduction to Topological Manifolds
-    link: https://en.wikipedia.org/wiki/Introduction_to_Topological_Manifolds
-    desc: introduces manifolds using point-set topology and geometric examples
-  - name: The C Programming Language
-    link: https://en.wikipedia.org/wiki/The_C_Programming_Language
-    desc: presents the C language through terse explanations and carefully chosen programs
-- websites:
-  - name: Wikipedia
-    link: https://wikipedia.org
-    desc: broad introductory references for mathematical concepts and culture
-  - name: MathWorld
-    link: https://mathworld.wolfram.com/
-    desc: concise encyclopaedic articles on a wide range of mathematical topics
-  - name: OEIS
-    link: https://oeis.org/
-    desc: integer sequences together with formulas, references and related sequences
-  - name: DLMF
-    link: https://dlmf.nist.gov/
-    desc: authoritative reference for special functions and their identities
-  - name: PlanetMath
-    link: https://planetmath.org/
-    desc: community-written encyclopaedia of mathematics
-  - name: Math Stack Exchange
-    link: https://math.stackexchange.com/
-    desc: questions and answers across nearly every level of mathematics
-  - name: MathOverflow
-    link: https://mathoverflow.net/
-    desc: research-level mathematical questions and discussion
-  - name: arXiv
-    link: https://arxiv.org/
-    desc: freely accessible preprints across mathematics and neighbouring sciences
-  - name: zbMATH Open
-    link: https://zbmath.org/
-    desc: indexes and reviews mathematical literature in an open database
-  - name: MathSciNet
-    link: https://mathscinet.ams.org/
-    desc: indexes and reviews published mathematical research
-  - name: MacTutor
-    link: https://mathshistory.st-andrews.ac.uk/
-    desc: history of mathematics through biographies and topic essays
-  - name: Project Euclid
-    link: https://projecteuclid.org/
-    desc: journals and monographs in mathematics and statistics
-  - name: Google Books
-    link: https://books.google.com/
-    desc: searches digitised books and previews mathematical literature
-  - name: Internet Archive
-    link: https://archive.org/
-    desc: preserves digitised books, papers, other historical mathematical material
-  - name: SpringerLink
-    link: https://link.springer.com/
-    desc: large catalogue of mathematical books, chapters, journals
-  - name: Encyclopedia of Mathematics
-    link: https://encyclopediaofmath.org/
-    desc: open reference covering a broad range of mathematical topics
-  - name: ProofWiki
-    link: https://proofwiki.org/
-    desc: definitions, axioms, proofs in a collaboratively maintained wiki
-  - name: LMFDB
-    link: https://www.lmfdb.org/
-    desc: explicit data about L-functions, modular forms, related objects
-  - name: Cut the Knot
-    link: https://www.cut-the-knot.org/
-    desc: recreational mathematics, demonstrations, proofs
-  - name: NRICH
-    link: https://nrich.maths.org/
-    desc: exploratory mathematical problems for school and university learners
-  - name: WolframAlpha
-    link: https://www.wolframalpha.com/
-    desc: answers computational questions using curated data and symbolic mathematics
-  - name: Mathematics LibreTexts
-    link: https://math.libretexts.org/
-    desc: openly licensed textbooks and notes across mathematics
-  - name: Wolfram Demonstrations
-    link: https://demonstrations.wolfram.com/
-    desc: interactive computational demonstrations built with Wolfram technology
-  - name: Lean Community
-    link: https://leanprover-community.github.io/
-    desc: collects documentation, libraries and community resources for formalised mathematics in Lean
-- softwares:
-  - name: Desmos
-    link: https://www.desmos.com/calculator
-    desc: interactive graphing calculator in the browser
-  - name: GeoGebra
-    link: https://www.geogebra.org/
-    desc: interactive geometry, algebra, calculus, statistics tools
-  - name: SageMath
-    link: https://www.sagemath.org/
-    desc: combines many open-source mathematical systems behind a common interface
-  - name: Mathematica
-    link: https://www.wolfram.com/mathematica/
-    desc: symbolic, numerical, visual mathematical computation
-  - name: MATLAB
-    link: https://www.mathworks.com/products/matlab.html
-    desc: numerical computing environment centred on arrays and matrices
-  - name: GNU Octave
-    link: https://octave.org/
-    desc: free numerical computing language broadly compatible with MATLAB
-  - name: Maple
-    link: https://www.maplesoft.com/products/maple/
-    desc: symbolic and numerical computation through a computer algebra system
-  - name: SymPy
-    link: https://www.sympy.org/
-    desc: symbolic mathematics in python
-  - name: NumPy
-    link: https://numpy.org/
-    desc: efficient multidimensional arrays and numerical operations in python
-  - name: SciPy
-    link: https://scipy.org/
-    desc: scientific algorithms for optimisation, integration, statistics, … in python
-  - name: Lean
-    link: https://lean-lang.org/
-    desc: functional programming language and interactive theorem prover
-  - name: Rocq (Coq)
-    link: https://rocq-prover.org/
-    desc: formal proofs and verified programs with dependent type theory
-  - name: Isabelle
-    link: https://isabelle.in.tum.de/
-    desc: interactive theorem proving in several formal logics
-  - name: GAP
-    link: https://www.gap-system.org/
-    desc: computational discrete algebra (especially group theory)
-  - name: PARI/GP
-    link: https://pari.math.u-bordeaux.fr/
-    desc: fast computation for number theory
-  - name: Maxima
-    link: https://maxima.sourceforge.io/
-    desc: open-source system for symbolic mathematical computation
-  - name: Julia
-    link: https://julialang.org/
-    desc: high-performance language designed for numerical and scientific computing
-  - name: R
-    link: https://www.r-project.org/
-    desc: language/environment for statistics and data analysis
-  - name: TikZ
-    link: https://tikz.net/
-    desc: draw mathematical diagrams programmatically within LaTeX
-  - name: Asymptote
-    link: https://asymptote.sourceforge.io/
-    desc: produce programmable vector graphics designed for technical figures
-  - name: Jupyter
-    link: https://jupyter.org/
-    desc: combine executable code, mathematics, prose in interactive notebooks
-  - name: LaTeX
-    link: https://www.latex-project.org/
-    desc: typeset mathematical and technical documents through a programmable markup system
-  - name: Inkscape
-    link: https://inkscape.org/
-    desc: create vector diagrams suitable for mathematical and scientific figures
-  - name: Gnuplot
-    link: http://www.gnuplot.info/
-    desc: plot mathematical functions and numerical data from scripts or an interactive shell
-- symbols:
-  - name: ∀
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%80%20mathematics
-    desc: denotes that a statement holds for every element under consideration
-  - name: ∃
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%83%20mathematics
-    desc: denotes that at least one element satisfying a statement exists
-  - name: ∈
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%88%20mathematics
-    desc: denotes membership of an element in a set
-  - name: ∉
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%89%20mathematics
-    desc: denotes that an element is not a member of a set
-  - name: ⊂
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%8A%82%20mathematics
-    desc: usually denotes a proper subset, though conventions vary
-  - name: ⊆
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%8A%86%20mathematics
-    desc: denotes a subset that may equal the containing set
-  - name: ∅
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%85%20mathematics
-    desc: denotes the set containing no elements
-  - name: ℕ
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%84%95%20mathematics
-    desc: usually denotes the natural numbers, with conventions differing over whether zero is included
-  - name: ℤ
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%84%A4%20mathematics
-    desc: denotes the set of integers
-  - name: ℚ
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%84%9A%20mathematics
-    desc: denotes the set of rational numbers
-  - name: ℝ
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%84%9D%20mathematics
-    desc: denotes the set of real numbers
-  - name: ℂ
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%84%82%20mathematics
-    desc: denotes the set of complex numbers
-  - name: ⇒
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%87%92%20mathematics
-    desc: denotes logical implication
-  - name: ⇔
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%87%94%20mathematics
-    desc: denotes logical equivalence or if and only if
-  - name: ≅
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%89%85%20mathematics
-    desc: often denotes an isomorphism or geometric congruence
-  - name: ≃
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%89%83%20mathematics
-    desc: often denotes an equivalence whose precise meaning depends on context
-  - name: ≈
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%89%88%20mathematics
-    desc: denotes approximate equality
-  - name: ≡
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%89%A1%20mathematics
-    desc: often denotes identity, congruence or definitional equality depending on context
-  - name: ∘
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%98%20mathematics
-    desc: usually denotes function composition
-  - name: ⊗
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%8A%97%20mathematics
-    desc: usually denotes a tensor product or another monoidal product
-  - name: ⊕
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%8A%95%20mathematics
-    desc: usually denotes a direct sum or another additive operation
-  - name: ∑
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%91%20mathematics
-    desc: denotes a sum indexed over specified values
-  - name: ∏
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%8F%20mathematics
-    desc: denotes a product indexed over specified values
-  - name: ∫
-    link: https://en.wikipedia.org/wiki/Special:Search?search=%E2%88%AB%20mathematics
-    desc: denotes integration over a domain
-- persons:
-  - name: Euclid
-    link: https://en.wikipedia.org/wiki/Euclid
-    desc: systematised classical geometry through definitions, axioms and proofs
-  - name: Archimedes
-    link: https://en.wikipedia.org/wiki/Archimedes
-    desc: developed influential results in geometry, mechanics and the method of exhaustion
-  - name: Isaac Newton
-    link: https://en.wikipedia.org/wiki/Isaac_Newton
-    desc: co-developed calculus and applied mathematics to mechanics and gravitation
-  - name: Leonhard Euler
-    link: https://en.wikipedia.org/wiki/Leonhard_Euler
-    desc: shaped large parts of analysis, number theory, graph theory and mathematical notation
-  - name: Carl Friedrich Gauss
-    link: https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss
-    desc: made foundational contributions across number theory, geometry, analysis and astronomy
-  - name: Bernhard Riemann
-    link: https://en.wikipedia.org/wiki/Bernhard_Riemann
-    desc: reshaped geometry and analysis through manifolds, integration and complex functions
-  - name: David Hilbert
-    link: https://en.wikipedia.org/wiki/David_Hilbert
-    desc: influenced algebra, geometry, analysis and the formal foundations of mathematics
-  - name: Emmy Noether
-    link: https://en.wikipedia.org/wiki/Emmy_Noether
-    desc: transformed abstract algebra and connected symmetry with conservation laws
-  - name: Henri Poincaré
-    link: https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9
-    desc: helped found topology and dynamical systems while contributing broadly across mathematics
-  - name: Georg Cantor
-    link: https://en.wikipedia.org/wiki/Georg_Cantor
-    desc: created set theory and developed the mathematical study of infinity
-  - name: Kurt Gödel
-    link: https://en.wikipedia.org/wiki/Kurt_G%C3%B6del
-    desc: established profound limits on formal axiomatic systems
-  - name: Alan Turing
-    link: https://en.wikipedia.org/wiki/Alan_Turing
-    desc: formalised computation and helped establish theoretical computer science
-  - name: John von Neumann
-    link: https://en.wikipedia.org/wiki/John_von_Neumann
-    desc: contributed widely to logic, analysis, quantum theory, computing and game theory
-  - name: Paul Erdős
-    link: https://en.wikipedia.org/wiki/Paul_Erd%C5%91s
-    desc: produced an enormous collaborative body of work in combinatorics and number theory
-  - name: Andrew Wiles
-    link: https://en.wikipedia.org/wiki/Andrew_Wiles
-    desc: proved Fermat's Last Theorem using ideas from elliptic curves and modular forms
-  - name: Terence Tao
-    link: https://en.wikipedia.org/wiki/Terence_Tao
-    desc: contributes broadly across analysis, number theory, combinatorics and partial differential equations
-  - name: Maryam Mirzakhani
-    link: https://en.wikipedia.org/wiki/Maryam_Mirzakhani
-    desc: advanced the geometry and dynamics of moduli spaces and became the first woman awarded a Fields Medal
-  - name: John Conway
-    link: https://en.wikipedia.org/wiki/John_Conway
-    desc: created influential ideas across algebra, geometry, number theory and recreational mathematics
-  - name: Srinivasa Ramanujan
-    link: https://en.wikipedia.org/wiki/Srinivasa_Ramanujan
-    desc: discovered striking formulas and identities in number theory and analysis
-  - name: Évariste Galois
-    link: https://en.wikipedia.org/wiki/%C3%89variste_Galois
-    desc: connected polynomial equations with symmetry and founded Galois theory
-  - name: Joseph Fourier
-    link: https://en.wikipedia.org/wiki/Joseph_Fourier
-    desc: developed Fourier analysis while studying heat flow
-  - name: Augustin-Louis Cauchy
-    link: https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy
-    desc: helped establish rigorous foundations for calculus and complex analysis
-  - name: Pierre-Simon Laplace
-    link: https://en.wikipedia.org/wiki/Pierre-Simon_Laplace
-    desc: advanced probability, analysis and celestial mechanics
-  - name: Benoit Mandelbrot
-    link: https://en.wikipedia.org/wiki/Benoit_Mandelbrot
-    desc: popularised fractal geometry and the study of rough self-similar structures
+  - name: discrete mathematics
+    link: https://en.wikipedia.org/wiki/Discrete_mathematics
+    desc: finite/countable structures versus continuously varying quantities
+- notation:
+  - name: Function notation
+    link: https://en.wikipedia.org/wiki/Function_(mathematics)#Notation
+    desc: notation for functions, domains, codomains and application
+  - name: Set-builder notation
+    link: https://en.wikipedia.org/wiki/Set-builder_notation
+    desc: describe sets through logical properties
+  - name: Tuple notation
+    link: https://en.wikipedia.org/wiki/Tuple
+    desc: represent ordered collections of mathematical objects
+  - name: Interval notation
+    link: https://en.wikipedia.org/wiki/Interval_(mathematics)
+    desc: represent subsets of ordered sets
+  - name: Matrix notation
+    link: https://en.wikipedia.org/wiki/Matrix_(mathematics)
+    desc: represent linear transformations and systems of equations
+  - name: Index notation
+    link: https://en.wikipedia.org/wiki/Index_notation
+    desc: express indexed families, arrays and tensors compactly
+  - name: Einstein notation
+    link: https://en.wikipedia.org/wiki/Einstein_notation
+    desc: omit repeated summation indices in tensor expressions
+  - name: Sigma notation
+    link: https://en.wikipedia.org/wiki/Summation
+    desc: represent indexed sums compactly
+  - name: Product notation
+    link: https://en.wikipedia.org/wiki/Product_(mathematics)#Product_of_a_sequence
+    desc: represent indexed products compactly
+  - name: Factorial notation
+    link: https://en.wikipedia.org/wiki/Factorial
+    desc: denote repeated products of consecutive integers
+  - name: Binomial coefficient
+    link: https://en.wikipedia.org/wiki/Binomial_coefficient
+    desc: denote combinations and polynomial coefficients
+  - name: Derivative notation
+    link: https://en.wikipedia.org/wiki/Notation_for_differentiation
+    desc: Leibniz, Lagrange and Newton notations for derivatives
+  - name: Integral notation
+    link: https://en.wikipedia.org/wiki/Integral
+    desc: notation for integration over intervals and domains
+  - name: Limit notation
+    link: https://en.wikipedia.org/wiki/Limit_of_a_function
+    desc: describe limiting behaviour of sequences and functions
+  - name: Asymptotic notation
+    link: https://en.wikipedia.org/wiki/Big_O_notation
+    desc: compare the growth rates of functions
+  - name: Piecewise notation
+    link: https://en.wikipedia.org/wiki/Piecewise
+    desc: define functions by different formulas on different regions
+  - name: Floor and ceiling
+    link: https://en.wikipedia.org/wiki/Floor_and_ceiling_functions
+    desc: round numbers down or up to the nearest integer
+  - name: Continued fraction
+    link: https://en.wikipedia.org/wiki/Continued_fraction
+    desc: represent numbers through nested fractions
+  - name: Cycle notation
+    link: https://en.wikipedia.org/wiki/Permutation#Cycle_notation
+    desc: represent permutations as disjoint cycles
+  - name: Arrow notation
+    link: https://en.wikipedia.org/wiki/Arrow_(category_theory)
+    desc: denote morphisms and relationships between mathematical objects
+  - name: Commutative diagram
+    link: https://en.wikipedia.org/wiki/Commutative_diagram
+    desc: express relationships between maps using diagrams
+  - name: Quotient notation
+    link: https://en.wikipedia.org/wiki/Quotient_set
+    desc: denote objects obtained by identifying equivalent elements
+  - name: Generator notation
+    link: https://en.wikipedia.org/wiki/Presentation_of_a_group
+    desc: describe algebraic structures through generators and relations
+  - name: Iverson bracket
+    link: https://en.wikipedia.org/wiki/Iverson_bracket
+    desc: convert logical statements into numerical values
 - theorems:
   - name: Pythagorean Theorem
     link: https://en.wikipedia.org/wiki/Pythagorean_theorem
-    desc: relates the side lengths of a right triangle by a² + b² = c²
-  - name: Fundamental Theorem of Calculus
-    link: https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus
-    desc: connects differentiation with integration
+    desc: relates the side lengths of a right triangle
   - name: Fundamental Theorem of Algebra
     link: https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra
     desc: states that every nonconstant complex polynomial has a complex root
+  - name: Fundamental Theorem of Calculus
+    link: https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus
+    desc: connects differentiation with integration
   - name: Intermediate Value Theorem
     link: https://en.wikipedia.org/wiki/Intermediate_value_theorem
     desc: states that a continuous function takes every value between two attained values
@@ -455,60 +163,60 @@
   - name: Stokes' Theorem
     link: https://en.wikipedia.org/wiki/Stokes'_theorem
     desc: relates integration over a manifold to integration over its boundary
-  - name: Green's Theorem
-    link: https://en.wikipedia.org/wiki/Green's_theorem
-    desc: relates a line integral around a plane region to a double integral over it
-  - name: Gauss's Divergence Theorem
-    link: https://en.wikipedia.org/wiki/Divergence_theorem
-    desc: relates flux through a closed boundary to divergence inside it
   - name: Bayes' Theorem
     link: https://en.wikipedia.org/wiki/Bayes'_theorem
     desc: relates conditional probabilities by reversing which event is conditioned upon
-  - name: Noether's Theorem
-    link: https://en.wikipedia.org/wiki/Noether's_theorem
-    desc: connects continuous symmetries of a physical system with conservation laws
-  - name: Euler's Formula
-    link: https://en.wikipedia.org/wiki/Euler's_formula
-    desc: connects complex exponentials with sine and cosine
-  - name: Euler Characteristic
-    link: https://en.wikipedia.org/wiki/Euler_characteristic
-    desc: assigns a topological invariant commonly computed from vertices, edges and faces
+  - name: Central Limit Theorem
+    link: https://en.wikipedia.org/wiki/Central_limit_theorem
+    desc: explains why suitably normalised sums often approach a normal distribution
   - name: Chinese Remainder Theorem
     link: https://en.wikipedia.org/wiki/Chinese_remainder_theorem
     desc: solves compatible systems of congruences with coprime moduli
-  - name: Hahn-Banach Theorem
-    link: https://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem
-    desc: extends bounded linear functionals while preserving their norm
-  - name: Banach Fixed-Point Theorem
-    link: https://en.wikipedia.org/wiki/Banach_fixed-point_theorem
-    desc: guarantees a unique fixed point for a contraction on a complete metric space
-  - name: Gödel's Incompleteness Theorems
-    link: https://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems
-    desc: show that sufficiently expressive consistent formal systems cannot prove every arithmetic truth
-  - name: Spectral Theorem
-    link: https://en.wikipedia.org/wiki/Spectral_theorem
-    desc: describes suitable linear operators through eigenvalues and orthogonal decompositions
-  - name: Jordan Curve Theorem
-    link: https://en.wikipedia.org/wiki/Jordan_curve_theorem
-    desc: states that a simple closed plane curve separates the plane into an inside and outside
-  - name: Cayley-Hamilton Theorem
-    link: https://en.wikipedia.org/wiki/Cayley%E2%80%93Hamilton_theorem
-    desc: states that every square matrix satisfies its own characteristic polynomial
-  - name: Rank-Nullity Theorem
-    link: https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem
-    desc: relates the dimensions of a linear map's image, kernel and domain
+  - name: Prime Number Theorem
+    link: https://en.wikipedia.org/wiki/Prime_number_theorem
+    desc: describes the asymptotic distribution of prime numbers
   - name: Lagrange's Theorem
     link: https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)
     desc: states that the order of a subgroup divides the order of a finite group
   - name: Sylow Theorems
     link: https://en.wikipedia.org/wiki/Sylow_theorems
     desc: describe subgroups whose orders are maximal powers of a prime
+  - name: Cayley-Hamilton Theorem
+    link: https://en.wikipedia.org/wiki/Cayley%E2%80%93Hamilton_theorem
+    desc: states that every square matrix satisfies its own characteristic polynomial
+  - name: Rank-Nullity Theorem
+    link: https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem
+    desc: relates the dimensions of a linear map's image, kernel and domain
+  - name: Spectral Theorem
+    link: https://en.wikipedia.org/wiki/Spectral_theorem
+    desc: describes suitable linear operators through eigenvalues and orthogonal decompositions
+  - name: Hahn-Banach Theorem
+    link: https://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem
+    desc: extends bounded linear functionals while preserving their norm
+  - name: Banach Fixed-Point Theorem
+    link: https://en.wikipedia.org/wiki/Banach_fixed-point_theorem
+    desc: guarantees a unique fixed point for a contraction on a complete metric space
   - name: Riesz Representation Theorem
     link: https://en.wikipedia.org/wiki/Riesz_representation_theorem
     desc: represents certain linear functionals or measures using concrete mathematical objects
   - name: Stone-Weierstrass Theorem
     link: https://en.wikipedia.org/wiki/Stone%E2%80%93Weierstrass_theorem
     desc: gives broad conditions under which function algebras approximate continuous functions
+  - name: Jordan Curve Theorem
+    link: https://en.wikipedia.org/wiki/Jordan_curve_theorem
+    desc: states that a simple closed plane curve separates the plane into an inside and outside
+  - name: Noether's Theorem
+    link: https://en.wikipedia.org/wiki/Noether's_theorem
+    desc: connects continuous symmetries of a physical system with conservation laws
+  - name: Yoneda Lemma
+    link: https://en.wikipedia.org/wiki/Yoneda_lemma
+    desc: shows that an object is determined by how every other object maps into it
+  - name: Gödel's Incompleteness Theorems
+    link: https://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems
+    desc: show that sufficiently expressive consistent formal systems cannot prove every arithmetic truth
+  - name: Euler's Formula
+    link: https://en.wikipedia.org/wiki/Euler's_formula
+    desc: connects complex exponentials with sine and cosine
 - problems:
   - name: Riemann Hypothesis
     link: https://en.wikipedia.org/wiki/Riemann_hypothesis
@@ -582,6 +290,152 @@
   - name: Hadwiger Conjecture
     link: https://en.wikipedia.org/wiki/Hadwiger_conjecture
     desc: relates graph colouring to the existence of complete graph minors
+- persons:
+  - name: Euclid
+    link: https://en.wikipedia.org/wiki/Euclid
+    desc: systematised classical geometry through definitions, axioms and proofs
+  - name: Archimedes
+    link: https://en.wikipedia.org/wiki/Archimedes
+    desc: developed influential results in geometry, mechanics and the method of exhaustion
+  - name: Muhammad ibn Musa al-Khwarizmi
+    link: https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
+    desc: systematised algebraic methods and gave algebra its name and algorithmic method
+  - name: Isaac Newton
+    link: https://en.wikipedia.org/wiki/Isaac_Newton
+    desc: co-developed calculus and applied mathematics to mechanics and gravitation
+  - name: Leonhard Euler
+    link: https://en.wikipedia.org/wiki/Leonhard_Euler
+    desc: shaped large parts of analysis, number theory, graph theory and mathematical notation
+  - name: Joseph Fourier
+    link: https://en.wikipedia.org/wiki/Joseph_Fourier
+    desc: developed Fourier analysis while studying heat flow
+  - name: Augustin-Louis Cauchy
+    link: https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy
+    desc: helped establish rigorous foundations for calculus and complex analysis
+  - name: Carl Friedrich Gauss
+    link: https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss
+    desc: made foundational contributions across number theory, geometry, analysis and astronomy
+  - name: Bernhard Riemann
+    link: https://en.wikipedia.org/wiki/Bernhard_Riemann
+    desc: reshaped geometry and analysis through manifolds, integration and complex functions
+  - name: Évariste Galois
+    link: https://en.wikipedia.org/wiki/%C3%89variste_Galois
+    desc: connected polynomial equations with symmetry and founded Galois theory
+  - name: Georg Cantor
+    link: https://en.wikipedia.org/wiki/Georg_Cantor
+    desc: created set theory and developed the mathematical study of infinity
+  - name: Henri Poincaré
+    link: https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9
+    desc: helped found topology and dynamical systems while contributing broadly across mathematics
+  - name: David Hilbert
+    link: https://en.wikipedia.org/wiki/David_Hilbert
+    desc: influenced algebra, geometry, analysis and the formal foundations of mathematics
+  - name: Emmy Noether
+    link: https://en.wikipedia.org/wiki/Emmy_Noether
+    desc: transformed abstract algebra and connected symmetry with conservation laws
+  - name: Srinivasa Ramanujan
+    link: https://en.wikipedia.org/wiki/Srinivasa_Ramanujan
+    desc: discovered striking formulas and identities in number theory and analysis
+  - name: Kurt Gödel
+    link: https://en.wikipedia.org/wiki/Kurt_G%C3%B6del
+    desc: established profound limits on formal axiomatic systems
+  - name: Alan Turing
+    link: https://en.wikipedia.org/wiki/Alan_Turing
+    desc: formalised computation and helped establish theoretical computer science
+  - name: John von Neumann
+    link: https://en.wikipedia.org/wiki/John_von_Neumann
+    desc: contributed widely to logic, analysis, quantum theory, computing and game theory
+  - name: Paul Erdős
+    link: https://en.wikipedia.org/wiki/Paul_Erd%C5%91s
+    desc: produced an enormous collaborative body of work in combinatorics and number theory
+  - name: Alexander Grothendieck
+    link: https://en.wikipedia.org/wiki/Alexander_Grothendieck
+    desc: recast algebraic geometry through schemes, categories and far-reaching structural methods
+  - name: John Conway
+    link: https://en.wikipedia.org/wiki/John_Conway
+    desc: created influential ideas across algebra, geometry, number theory and recreational mathematics
+  - name: Andrew Wiles
+    link: https://en.wikipedia.org/wiki/Andrew_Wiles
+    desc: proved Fermat's Last Theorem using ideas from elliptic curves and modular forms
+  - name: Maryam Mirzakhani
+    link: https://en.wikipedia.org/wiki/Maryam_Mirzakhani
+    desc: advanced the geometry and dynamics of moduli spaces and became the first woman awarded a Fields Medal
+  - name: Terence Tao
+    link: https://en.wikipedia.org/wiki/Terence_Tao
+    desc: contributes broadly across analysis, number theory, combinatorics and partial differential equations
+- books:
+  - name: Elements (Euclid)
+    link: https://en.wikipedia.org/wiki/Euclid%27s_Elements
+    desc: organises classical geometry into definitions, propositions and proofs
+  - name: Principia Mathematica
+    link: https://en.wikipedia.org/wiki/Principia_Mathematica
+    desc: develops a formal foundation for mathematics through symbolic logic
+  - name: How to Solve It
+    link: https://en.wikipedia.org/wiki/How_to_Solve_It
+    desc: timeless guide to mathematical problem solving
+  - name: Proofs from THE BOOK
+    link: https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK
+    desc: collects proofs chosen for their unusual elegance and clarity
+  - name: The Princeton Companion to Mathematics
+    link: https://en.wikipedia.org/wiki/The_Princeton_Companion_to_Mathematics
+    desc: surveys the ideas, people and culture of modern mathematics
+  - name: Indiscrete Thoughts
+    link: https://en.wikipedia.org/wiki/Indiscrete_Thoughts
+    desc: essays on mathematical culture, taste and the philosophy of doing mathematics
+  - name: Calculus (Spivak)
+    link: https://en.wikipedia.org/wiki/Calculus_%28Spivak_book%29
+    desc: introduces calculus through Spivak's rigorous and proof-oriented approach
+  - name: Linear Algebra Done Right
+    link: https://en.wikipedia.org/wiki/Linear_Algebra_Done_Right
+    desc: modern linear algebra from first principles
+  - name: A Book of Abstract Algebra
+    link: https://en.wikipedia.org/wiki/A_Book_of_Abstract_Algebra
+    desc: introduces abstract algebra through accessible exposition and exercises
+  - name: Algebra (Lang)
+    link: https://en.wikipedia.org/wiki/Algebra_%28Lang_book%29
+    desc: serves as an influential graduate reference for modern algebra
+  - name: Naive Set Theory
+    link: https://en.wikipedia.org/wiki/Naive_Set_Theory_%28book%29
+    desc: gentle entry into axiomatic set theory
+  - name: Topology (Munkres)
+    link: https://en.wikipedia.org/wiki/Topology_%28Munkres_book%29
+    desc: serves as a standard introduction to point-set and algebraic topology
+  - name: Introduction to Topological Manifolds
+    link: https://en.wikipedia.org/wiki/Introduction_to_Topological_Manifolds
+    desc: introduces manifolds using point-set topology and geometric examples
+  - name: Real and Complex Analysis
+    link: https://en.wikipedia.org/wiki/Real_and_Complex_Analysis
+    desc: develops graduate-level real and complex analysis in a unified treatment
+  - name: Visual Complex Analysis
+    link: https://en.wikipedia.org/wiki/Visual_Complex_Analysis
+    desc: develops complex analysis through geometric intuition and visual arguments
+  - name: Introduction to Probability (Blitzstein)
+    link: https://en.wikipedia.org/wiki/Introduction_to_Probability_%28Blitzstein_book%29
+    desc: introduces probability through problems, stories and mathematical reasoning
+  - name: Introduction to Graph Theory (West)
+    link: https://en.wikipedia.org/wiki/Introduction_to_Graph_Theory_%28West_book%29
+    desc: provides a widely used introduction to graph theory
+  - name: Generatingfunctionology
+    link: https://en.wikipedia.org/wiki/Generatingfunctionology
+    desc: develops generating functions as tools for solving discrete problems
+  - name: An Invitation to Modern Number Theory
+    link: https://web.williams.edu/Mathematics/sjmiller/public_html/BrownClasses/197/benford/ProbStat_Chaps8And9.pdf
+    desc: introduces several themes and methods from contemporary number theory
+  - name: Category Theory for the Sciences
+    link: https://en.wikipedia.org/wiki/Category_Theory_for_the_Sciences
+    desc: introduces category theory through examples from mathematics and science
+  - name: Concrete Mathematics
+    link: https://en.wikipedia.org/wiki/Concrete_Mathematics
+    desc: classic bridge between discrete mathematics and computer science
+  - name: Introduction to Algorithms
+    link: https://en.wikipedia.org/wiki/Introduction_to_Algorithms
+    desc: surveys foundational algorithms and the techniques used to analyse them
+  - name: The Art of Computer Programming
+    link: https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming
+    desc: deep exploration of algorithms and discrete mathematics
+  - name: The Road to Reality
+    link: https://en.wikipedia.org/wiki/The_Road_to_Reality
+    desc: surveys the mathematics underlying modern theoretical physics
 - journals:
   - name: Annals of Mathematics
     link: https://annals.math.princeton.edu/
@@ -655,6 +509,226 @@
   - name: The Fibonacci Quarterly
     link: https://www.fq.math.ca/
     desc: research on Fibonacci numbers and related integer sequences
+- websites:
+  - name: Wikipedia
+    link: https://wikipedia.org
+    desc: broad introductory references for mathematical concepts and culture
+  - name: MathWorld
+    link: https://mathworld.wolfram.com/
+    desc: concise encyclopaedic articles on a wide range of mathematical topics
+  - name: Encyclopedia of Mathematics
+    link: https://encyclopediaofmath.org/
+    desc: open reference covering a broad range of mathematical topics
+  - name: PlanetMath
+    link: https://planetmath.org/
+    desc: community-written encyclopaedia of mathematics
+  - name: ProofWiki
+    link: https://proofwiki.org/
+    desc: definitions, axioms, proofs in a collaboratively maintained wiki
+  - name: DLMF
+    link: https://dlmf.nist.gov/
+    desc: authoritative reference for special functions and their identities
+  - name: Wolfram Functions
+    link: https://functions.wolfram.com/
+    desc: extensive formulas, identities and properties of elementary and special functions
+  - name: nLab
+    link: https://ncatlab.org/nlab/show/HomePage
+    desc: collaborative reference centred on category theory, homotopy theory and mathematical physics
+  - name: Lean Community
+    link: https://leanprover-community.github.io/
+    desc: collects documentation, libraries and community resources for formalised mathematics in Lean
+  - name: EuDML
+    link: https://eudml.org/
+    desc: freely accessible archive of mathematical journals, articles and historical literature
+  - name: arXiv
+    link: https://arxiv.org/
+    desc: freely accessible preprints across mathematics and neighbouring sciences
+  - name: zbMATH Open
+    link: https://zbmath.org/
+    desc: indexes and reviews mathematical literature in an open database
+  - name: MathSciNet
+    link: https://mathscinet.ams.org/
+    desc: indexes and reviews published mathematical research
+  - name: Project Euclid
+    link: https://projecteuclid.org/
+    desc: journals and monographs in mathematics and statistics
+  - name: SpringerLink
+    link: https://link.springer.com/
+    desc: large catalogue of mathematical books, chapters, journals
+  - name: Mathematics LibreTexts
+    link: https://math.libretexts.org/
+    desc: openly licensed textbooks and notes across mathematics
+  - name: Google Books
+    link: https://books.google.com/
+    desc: searches digitised books and previews mathematical literature
+  - name: Internet Archive
+    link: https://archive.org/
+    desc: preserves digitised books, papers, other historical mathematical material
+  - name: MacTutor
+    link: https://mathshistory.st-andrews.ac.uk/
+    desc: history of mathematics through biographies and topic essays
+  - name: Mathematics Genealogy Project
+    link: https://www.mathgenealogy.org/
+    desc: searches academic mentorship lineages across the mathematical sciences
+  - name: WolframAlpha
+    link: https://www.wolframalpha.com/
+    desc: answers computational questions using curated data and symbolic mathematics
+  - name: Wolfram Demonstrations
+    link: https://demonstrations.wolfram.com/
+    desc: interactive computational demonstrations built with Wolfram technology
+  - name: Cut the Knot
+    link: https://www.cut-the-knot.org/
+    desc: recreational mathematics, demonstrations, proofs
+  - name: NRICH
+    link: https://nrich.maths.org/
+    desc: exploratory mathematical problems for school and university learners
+
+- softwares:
+  - name: SageMath
+    link: https://www.sagemath.org/
+    desc: combines many open-source mathematical systems behind a common interface
+  - name: Mathematica
+    link: https://www.wolfram.com/mathematica/
+    desc: symbolic, numerical, visual mathematical computation
+  - name: Maple
+    link: https://www.maplesoft.com/products/maple/
+    desc: symbolic and numerical computation through a computer algebra system
+  - name: SymPy
+    link: https://www.sympy.org/
+    desc: symbolic mathematics in python
+  - name: GAP
+    link: https://www.gap-system.org/
+    desc: computational discrete algebra (especially group theory)
+  - name: PARI/GP
+    link: https://pari.math.u-bordeaux.fr/
+    desc: fast computation for number theory
+  - name: FLINT
+    link: https://flintlib.org/
+    desc: high-performance number theory and algebra over integers, polynomials and finite fields
+  - name: GNU MPFR
+    link: https://www.mpfr.org/
+    desc: correctly rounded arbitrary-precision floating-point arithmetic
+  - name: Arb
+    link: https://arblib.org/
+    desc: rigorous arbitrary-precision numerical computation using ball arithmetic
+  - name: MATLAB
+    link: https://www.mathworks.com/products/matlab.html
+    desc: numerical computing environment centred on arrays and matrices
+  - name: NumPy
+    link: https://numpy.org/
+    desc: efficient multidimensional arrays and numerical operations in python
+  - name: SciPy
+    link: https://scipy.org/
+    desc: scientific algorithms for optimisation, integration, statistics, … in python
+  - name: Julia
+    link: https://julialang.org/
+    desc: high-performance language designed for numerical and scientific computing
+  - name: R
+    link: https://www.r-project.org/
+    desc: language/environment for statistics and data analysis
+  - name: Eigen
+    link: https://eigen.tuxfamily.org/
+    desc: high-performance linear algebra templates for C++
+  - name: CGAL
+    link: https://www.cgal.org/
+    desc: robust algorithms and data structures for computational geometry
+  - name: Desmos
+    link: https://www.desmos.com/calculator
+    desc: interactive graphing calculator in the browser
+  - name: GeoGebra
+    link: https://www.geogebra.org/
+    desc: interactive geometry, algebra, calculus, statistics tools
+  - name: Lean
+    link: https://lean-lang.org/
+    desc: functional programming language and interactive theorem prover
+  - name: Rocq (Coq)
+    link: https://rocq-prover.org/
+    desc: formal proofs and verified programs with dependent type theory
+  - name: Isabelle
+    link: https://isabelle.in.tum.de/
+    desc: interactive theorem proving in several formal logics
+  - name: LaTeX
+    link: https://www.latex-project.org/
+    desc: typeset mathematical and technical documents through a programmable markup system
+  - name: TikZ
+    link: https://tikz.net/
+    desc: draw mathematical diagrams programmatically within LaTeX
+  - name: Jupyter
+    link: https://jupyter.org/
+    desc: combine executable code, mathematics, prose in interactive notebooks
+- catalogues:
+  - name: OEIS
+    link: https://oeis.org/
+    desc: catalogues integer sequences with formulas, references, programs and cross-links
+  - name: LMFDB
+    link: https://www.lmfdb.org/
+    desc: organises explicit data about L-functions, modular forms and related arithmetic objects
+  - name: ATLAS of Finite Groups
+    link: https://brauer.maths.qmul.ac.uk/Atlas/v3/
+    desc: catalogues finite groups, representations, characters and standard generators
+  - name: GAP Small Groups Library
+    link: https://www.gap-system.org/Packages/sgl.html
+    desc: provides groups of small order in forms suitable for computation
+  - name: GAP Character Table Library
+    link: https://www.gap-system.org/Packages/ctbllib.html
+    desc: collects ordinary and modular character tables of finite groups
+  - name: GroupNames
+    link: https://people.maths.bris.ac.uk/~matyd/GroupNames/
+    desc: indexes finite groups by names, structures, properties and presentations
+  - name: Database of Ring Theory
+    link: https://ringtheory.herokuapp.com/
+    desc: records examples and properties of rings with searchable relationships
+  - name: FindStat
+    link: https://www.findstat.org/
+    desc: catalogues combinatorial statistics and maps between combinatorial collections
+  - name: House of Graphs
+    link: https://houseofgraphs.org/
+    desc: searches notable graphs by invariants, properties and references
+  - name: Network Repository
+    link: https://networkrepository.com/
+    desc: collects real and synthetic networks for graph analysis and experimentation
+  - name: SuiteSparse Matrix Collection
+    link: https://sparse.tamu.edu/
+    desc: provides sparse matrices arising from scientific and engineering applications
+  - name: KnotInfo
+    link: https://knotinfo.math.indiana.edu/
+    desc: tabulates invariants and properties of knots
+  - name: LinkInfo
+    link: https://linkinfo.sitehost.iu.edu/
+    desc: tabulates invariants and properties of links
+  - name: Knot Atlas
+    link: https://katlas.org/wiki/Main_Page
+    desc: collects knot tables, invariants, computations and expository material
+  - name: Encyclopedia of Triangle Centers
+    link: https://faculty.evansville.edu/ck6/encyclopedia/ETC.html
+    desc: catalogues named triangle centres using coordinates and geometric properties
+  - name: polyDB
+    link: https://polydb.org/
+    desc: stores collections of polyhedral and combinatorial objects for computational research
+  - name: Manifold Atlas
+    link: http://www.map.mpim-bonn.mpg.de/
+    desc: organises information about manifolds, invariants and classification results
+  - name: Kreuzer–Skarke Database
+    link: http://hep.itp.tuwien.ac.at/~kreuzer/CY/
+    desc: catalogues reflexive polytopes used in toric geometry and Calabi–Yau constructions
+  - name: Online Atlas of Fatou–Bieberbach Domains
+    link: https://www.math.stonybrook.edu/~forstneric/atlas/
+    desc: collects explicit examples and visualisations from several complex variables
+  - name: TSPLIB
+    link: http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/
+    desc: provides benchmark instances for travelling-salesperson and related routing problems
+  - name: MIPLIB
+    link: https://miplib.zib.de/
+    desc: provides benchmark instances for mixed-integer optimisation
+  - name: QAPLIB
+    link: https://coral.ise.lehigh.edu/data-sets/qaplib/
+    desc: provides benchmark instances and solutions for quadratic assignment problems
+  - name: SATLIB
+    link: https://www.cs.ubc.ca/~hoos/SATLIB/
+    desc: collects benchmark instances for satisfiability algorithms
+  - name: OR-Library
+    link: http://people.brunel.ac.uk/~mastjjb/jeb/info.html
+    desc: collects test data for operations-research problems and algorithms
 - organisations:
   - name: International Mathematical Union
     link: https://www.mathunion.org/
@@ -713,9 +787,9 @@
   - name: International Congress of Mathematicians
     link: https://www.mathunion.org/icm
     desc: gathers mathematicians for the field's largest recurring international congress
-  - name: Mathematical Olympiad Foundation
-    link: https://www.imo-official.org/
-    desc: supports mathematical olympiad training and participation
+  - name: Ramanujan Mathematical Society
+    link: https://rmsindia.in/
+    desc: supports mathematical research and journal publishing in India
   - name: International Council for Industrial and Applied Mathematics
     link: https://iciam.org/
     desc: coordinates international activity in industrial and applied mathematics
@@ -728,79 +802,79 @@
   - name: CIMPA
     link: https://www.cimpa.info/
     desc: supports mathematical research and training in developing regions
-- youtubes:
-  - name: 3Blue1Brown
-    link: https://www.youtube.com/@3blue1brown
-    desc: builds visual intuition for mathematical ideas through animated exposition
-  - name: Numberphile
-    link: https://www.youtube.com/@numberphile
-    desc: explores mathematical stories, people and curiosities through interviews
-  - name: Stand-up Maths
-    link: https://www.youtube.com/@standupmaths
-    desc: explores recreational mathematics, puzzles and mathematical experiments
-  - name: Professor Leonard
-    link: https://www.youtube.com/@ProfessorLeonard
-    desc: provides long-form classroom lectures in calculus and related subjects
-  - name: Eddie Woo
-    link: https://www.youtube.com/@misterwootube
-    desc: explains school mathematics through clear classroom-style lessons
-  - name: Mathologer
-    link: https://www.youtube.com/@Mathologer
-    desc: develops deep but accessible explorations of elegant mathematics
-  - name: Michael Penn
-    link: https://www.youtube.com/@MichaelPennMath
-    desc: solves mathematical problems and teaches university-level topics
-  - name: blackpenredpen
-    link: https://www.youtube.com/@blackpenredpen
-    desc: solves calculus, algebra and olympiad-style problems on camera
-  - name: Dr Peyam
-    link: https://www.youtube.com/@DrPeyam
-    desc: teaches university mathematics through lectures and problem solving
-  - name: Flammable Maths
-    link: https://www.youtube.com/@FlammableMaths
-    desc: explains undergraduate mathematics with humour and worked examples
-  - name: Wrath of Math
-    link: https://www.youtube.com/@WrathofMath
-    desc: teaches proofs, discrete mathematics and foundational topics
-  - name: The Bright Side of Mathematics
-    link: https://www.youtube.com/@brightsideofmaths
-    desc: provides systematic lecture series in rigorous university mathematics
-  - name: Reducible
-    link: https://www.youtube.com/@Reducible
-    desc: explains the mathematics underlying algorithms and computer science
-  - name: Zach Star
-    link: https://www.youtube.com/@zachstar
-    desc: connects mathematics with engineering, physics and careers
-  - name: PBS Infinite Series
-    link: https://www.youtube.com/@pbsinfiniteseries
-    desc: explores higher mathematics for a broad public audience
-  - name: Tibees
-    link: https://www.youtube.com/@tibees
-    desc: discusses mathematics, physics, education and historical examinations
-  - name: Eigenchris
-    link: https://www.youtube.com/@eigenchris
-    desc: teaches tensors, relativity, linear algebra and differential equations visually
-  - name: Aleph 0
-    link: https://www.youtube.com/@Aleph0
-    desc: explores advanced mathematical ideas through concise animated videos
-  - name: Richard E. Borcherds
-    link: https://www.youtube.com/@richarde.borcherds7998
-    desc: publishes full graduate lectures across algebra, geometry and number theory
-  - name: MIT OpenCourseWare
-    link: https://www.youtube.com/@mitocw
-    desc: publishes complete university courses from MIT
-  - name: Harvard Math
-    link: https://www.youtube.com/@HarvardMath
-    desc: publishes public lectures, seminars and departmental events
-  - name: Oxford Mathematics
-    link: https://www.youtube.com/@OxfordMathematics
-    desc: publishes lectures, interviews and mathematical outreach
-  - name: UC Berkeley Math
-    link: https://www.youtube.com/@UCBerkeleyMath
-    desc: publishes seminars, lectures and departmental recordings
-  - name: Simons Institute
-    link: https://www.youtube.com/@SimonsInstituteTOC
-    desc: publishes research talks in theoretical computer science and related mathematics
+- universities:
+  - name: University of Cambridge
+    link: https://www.maths.cam.ac.uk/
+    desc: hosts a historically influential and broad mathematical research community
+  - name: University of Oxford
+    link: https://www.maths.ox.ac.uk/
+    desc: hosts major research and teaching across pure and applied mathematics
+  - name: Massachusetts Institute of Technology
+    link: https://math.mit.edu/
+    desc: hosts a leading department spanning pure mathematics, applied mathematics and computation
+  - name: Princeton University
+    link: https://www.math.princeton.edu/
+    desc: hosts a highly influential department in pure and applied mathematics
+  - name: Harvard University
+    link: https://www.math.harvard.edu/
+    desc: hosts major research programmes across modern pure mathematics
+  - name: Stanford University
+    link: https://mathematics.stanford.edu/
+    desc: hosts research across pure mathematics and mathematically intensive applications
+  - name: University of California, Berkeley
+    link: https://math.berkeley.edu/
+    desc: hosts a large department with broad strength across mathematics
+  - name: University of Chicago
+    link: https://mathematics.uchicago.edu/
+    desc: hosts influential research in algebra, analysis, geometry and topology
+  - name: California Institute of Technology
+    link: https://pma.caltech.edu/research-and-academics/mathematics
+    desc: hosts a compact department with strong links to physics and computation
+  - name: ETH Zürich
+    link: https://math.ethz.ch/
+    desc: hosts one of Europe's largest centres for mathematical research and teaching
+  - name: University of Bonn
+    link: https://www.mathematics.uni-bonn.de/
+    desc: hosts major research clusters across pure and applied mathematics
+  - name: Paris-Saclay University
+    link: https://www.universite-paris-saclay.fr/en/research/mathematics
+    desc: hosts a large concentration of mathematical researchers and institutes
+  - name: Sorbonne University
+    link: https://sciences.sorbonne-universite.fr/en/research/mathematics
+    desc: continues a long Parisian tradition of mathematical research and teaching
+  - name: University of Warwick
+    link: https://warwick.ac.uk/fac/sci/maths/
+    desc: hosts broad research with notable strength in geometry, analysis and probability
+  - name: Imperial College London
+    link: https://www.imperial.ac.uk/mathematics/
+    desc: hosts research across pure mathematics, applied mathematics and statistics
+  - name: University College London
+    link: https://www.ucl.ac.uk/mathematical-physical-sciences/mathematics
+    desc: hosts broad mathematical research within a large interdisciplinary university
+  - name: University of Toronto
+    link: https://www.mathematics.utoronto.ca/
+    desc: hosts one of Canada's largest and broadest mathematics departments
+  - name: University of Waterloo
+    link: https://uwaterloo.ca/math/
+    desc: hosts a large faculty spanning mathematics, statistics and computer science
+  - name: Moscow State University
+    link: https://www.msu.ru/en/info/struct/depts/mechmath.html
+    desc: has a long tradition of influential research and training in mathematics
+  - name: Tata Institute of Fundamental Research
+    link: https://www.math.tifr.res.in/
+    desc: hosts major Indian research programmes in pure mathematics
+  - name: Chennai Mathematical Institute
+    link: https://www.cmi.ac.in/
+    desc: specialises in mathematics, computer science and theoretical physics
+  - name: Indian Statistical Institute
+    link: https://www.isical.ac.in/
+    desc: hosts influential research in statistics, mathematics and theoretical computer science
+  - name: University of Michigan
+    link: https://lsa.umich.edu/math
+    desc: hosts broad research across pure and applied mathematics
+  - name: New York University
+    link: https://math.nyu.edu/
+    desc: hosts the Courant Institute and major research in analysis, applied mathematics and geometry
 - awards:
   - name: Fields Medal
     link: https://en.wikipedia.org/wiki/Fields_Medal
@@ -839,10 +913,10 @@
     link: https://en.wikipedia.org/wiki/SASTRA_Ramanujan_Prize
     desc: young mathematicians working in areas influenced by Ramanujan
   - name: Cole Prize in Algebra
-    link: https://en.wikipedia.org/wiki/Cole_Prize
+    link: https://en.wikipedia.org/wiki/Cole_Prize#Frank_Nelson_Cole_Prize_in_Algebra
     desc: notable research in algebra
   - name: Cole Prize in Number Theory
-    link: https://en.wikipedia.org/wiki/Cole_Prize
+    link: https://en.wikipedia.org/wiki/Cole_Prize#Frank_Nelson_Cole_Prize_in_Number_Theory
     desc: notable research in number theory
   - name: Bôcher Memorial Prize
     link: https://en.wikipedia.org/wiki/B%C3%B4cher_Memorial_Prize
@@ -947,180 +1021,49 @@
   - name: International Zhautykov Olympiad
     link: https://en.wikipedia.org/wiki/International_Zhautykov_Olympiad
     desc: combines mathematics, physics and informatics competitions for specialised schools
-- blogs:
-  - name: What's New
-    link: https://terrytao.wordpress.com/
-    desc: records Terence Tao's expository notes, research discussions and mathematical observations
-  - name: Not Even Wrong
-    link: https://www.math.columbia.edu/~woit/wordpress/
-    desc: discusses mathematical physics, quantum field theory and developments around string theory
-  - name: Azimuth
-    link: https://johncarlosbaez.wordpress.com/
-    desc: explores mathematics, physics, networks and environmental questions
-  - name: Gödel's Lost Letter and P=NP
-    link: https://rjlipton.com/
-    desc: discusses complexity theory, algorithms and mathematical problem solving
-  - name: Shtetl-Optimized
-    link: https://scottaaronson.blog/
-    desc: discusses quantum computing, complexity theory and the culture around them
-  - name: Quomodocumque
-    link: https://quomodocumque.wordpress.com/
-    desc: collects Jordan Ellenberg's writing on mathematics and its surrounding culture
-  - name: Gowers's Weblog
-    link: https://gowers.wordpress.com/
-    desc: discusses research, exposition, collaboration and mathematical practice
-  - name: Combinatorics and More
-    link: https://gilkalai.wordpress.com/
-    desc: discusses combinatorics, probability, geometry and current mathematical questions
-  - name: The Endeavour
-    link: https://www.johndcook.com/blog/
-    desc: connects mathematics, statistics and scientific computing through concise articles
-  - name: Math with Bad Drawings
-    link: https://mathwithbaddrawings.com/
-    desc: explains mathematical ideas through informal writing and deliberately simple illustrations
-  - name: Math ∩ Programming
-    link: https://www.jeremykun.com/
-    desc: develops mathematical ideas alongside algorithms and programming
-  - name: Division by Zero
-    link: https://divisbyzero.com/
-    desc: collects mathematical exposition, teaching reflections and curiosities
-  - name: The Aperiodical
-    link: https://aperiodical.com/
-    desc: publishes recreational mathematics, news, reviews and community commentary
-  - name: Secret Blogging Seminar
-    link: https://sbseminar.wordpress.com/
-    desc: hosts informal expository writing by researchers in geometry and representation theory
-  - name: Never Ending Books
-    link: https://www.neverendingbooks.org/
-    desc: explores algebra, geometry, mathematical history and digital experimentation
-  - name: Maths in the City
-    link: https://www.sarahhartmaths.com/blog
-    desc: connects mathematics with patterns, culture and everyday life
-  - name: Bit-Player
-    link: http://bit-player.org/
-    desc: explores computation, number theory, probability and mathematical experimentation
-  - name: The Math Less Traveled
-    link: https://mathlesstraveled.com/
-    desc: explores recreational mathematics through problems, diagrams and experimentation
-  - name: Chalkdust Magazine
-    link: https://chalkdustmagazine.com/
-    desc: publishes playful mathematical exposition, interviews and puzzles
-  - name: Mathematical Enchantments
-    link: https://mathenchant.wordpress.com/
-    desc: explores mathematical ideas through exposition and teaching
-  - name: Algebraic Geometry Blog
-    link: https://amathew.wordpress.com/
-    desc: discusses algebraic geometry, homotopy theory and related research
-  - name: Xian's Blog
-    link: https://xianblog.wordpress.com/
-    desc: discusses Bayesian statistics, computation and mathematical publishing
-  - name: Peter Woit's Columbia Notes
-    link: https://www.math.columbia.edu/~woit/
-    desc: collects notes and resources in representation theory and mathematical physics
-  - name: Diary of Dr. Logic
-    link: https://diaryofdrlogic.blogspot.com/
-    desc: reflects on logic, mathematics and academic life
-- universities:
-  - name: University of Cambridge
-    link: https://www.maths.cam.ac.uk/
-    desc: hosts a historically influential and broad mathematical research community
-  - name: University of Oxford
-    link: https://www.maths.ox.ac.uk/
-    desc: hosts major research and teaching across pure and applied mathematics
-  - name: Massachusetts Institute of Technology
-    link: https://math.mit.edu/
-    desc: hosts a leading department spanning pure mathematics, applied mathematics and computation
-  - name: Princeton University
-    link: https://www.math.princeton.edu/
-    desc: hosts a highly influential department in pure and applied mathematics
-  - name: Harvard University
-    link: https://www.math.harvard.edu/
-    desc: hosts major research programmes across modern pure mathematics
-  - name: Stanford University
-    link: https://mathematics.stanford.edu/
-    desc: hosts research across pure mathematics and mathematically intensive applications
-  - name: University of California, Berkeley
-    link: https://math.berkeley.edu/
-    desc: hosts a large department with broad strength across mathematics
-  - name: University of Chicago
-    link: https://mathematics.uchicago.edu/
-    desc: hosts influential research in algebra, analysis, geometry and topology
-  - name: California Institute of Technology
-    link: https://pma.caltech.edu/research-and-academics/mathematics
-    desc: hosts a compact department with strong links to physics and computation
-  - name: ETH Zürich
-    link: https://math.ethz.ch/
-    desc: hosts one of Europe's largest centres for mathematical research and teaching
-  - name: University of Bonn
-    link: https://www.mathematics.uni-bonn.de/
-    desc: hosts major research clusters across pure and applied mathematics
-  - name: Paris-Saclay University
-    link: https://www.universite-paris-saclay.fr/en/research/mathematics
-    desc: hosts a large concentration of mathematical researchers and institutes
-  - name: Sorbonne University
-    link: https://sciences.sorbonne-universite.fr/en/research/mathematics
-    desc: continues a long Parisian tradition of mathematical research and teaching
-  - name: University of Warwick
-    link: https://warwick.ac.uk/fac/sci/maths/
-    desc: hosts broad research with notable strength in geometry, analysis and probability
-  - name: Imperial College London
-    link: https://www.imperial.ac.uk/mathematics/
-    desc: hosts research across pure mathematics, applied mathematics and statistics
-  - name: University College London
-    link: https://www.ucl.ac.uk/mathematical-physical-sciences/mathematics
-    desc: hosts broad mathematical research within a large interdisciplinary university
-  - name: University of Toronto
-    link: https://www.mathematics.utoronto.ca/
-    desc: hosts one of Canada's largest and broadest mathematics departments
-  - name: University of Waterloo
-    link: https://uwaterloo.ca/math/
-    desc: hosts a large faculty spanning mathematics, statistics and computer science
-  - name: Moscow State University
-    link: https://www.msu.ru/en/info/struct/depts/mechmath.html
-    desc: has a long tradition of influential research and training in mathematics
-  - name: Tata Institute of Fundamental Research
-    link: https://www.math.tifr.res.in/
-    desc: hosts major Indian research programmes in pure mathematics
-  - name: Chennai Mathematical Institute
-    link: https://www.cmi.ac.in/
-    desc: specialises in mathematics, computer science and theoretical physics
-  - name: Indian Statistical Institute
-    link: https://www.isical.ac.in/
-    desc: hosts influential research in statistics, mathematics and theoretical computer science
-  - name: University of Michigan
-    link: https://lsa.umich.edu/math
-    desc: hosts broad research across pure and applied mathematics
-  - name: New York University
-    link: https://math.nyu.edu/
-    desc: hosts the Courant Institute and major research in analysis, applied mathematics and geometry
 - communities:
   - name: Art of Problem Solving
     link: https://artofproblemsolving.com/community
     desc: brings together students and enthusiasts around olympiad mathematics and problem solving
-  - name: r/math
-    link: https://www.reddit.com/r/math/
-    desc: hosts broad public discussion of mathematics, education and mathematical news
   - name: Mathematics Discord
     link: https://discord.com/invite/math
     desc: hosts real-time discussion and help across many levels of mathematics
+  - name: r/math
+    link: https://www.reddit.com/r/math/
+    desc: hosts broad public discussion of mathematics, education and mathematical news
   - name: Mathstodon
     link: https://mathstodon.xyz/
     desc: provides a federated social network centred on mathematics and adjacent sciences
   - name: Math Twitter
     link: https://en.wikipedia.org/wiki/Special:Search?search=mathematics%20Twitter%20community
     desc: connects mathematicians through informal discussion, exposition and professional news
-  - name: nLab
-    link: https://ncatlab.org/nlab/show/HomePage
-    desc: maintains a collaborative wiki centred on category theory, homotopy theory and mathematical physics
-  - name: Proof Assistants Stack Exchange
-    link: https://proofassistants.stackexchange.com/
-    desc: hosts questions and answers about theorem provers and formalised mathematics
+  - name: MathOverflow Community
+    link: https://mathoverflow.net/
+    desc: connects research mathematicians through questions, answers and professional discussion
+  - name: Math Stack Exchange Community
+    link: https://math.stackexchange.com/
+    desc: connects learners and mathematicians through collaborative problem solving
+  - name: Polymath Projects
+    link: https://en.wikipedia.org/wiki/Polymath_Project
+    desc: organises open online collaborations on mathematical research problems
+  - name: Math Circles
+    link: https://mathcircles.org/
+    desc: brings students and mathematicians together for exploratory problem solving
+  - name: Global Math Project
+    link: https://globalmathproject.org/
+    desc: coordinates worldwide public participation in shared mathematical activities
   - name: Lean Zulip
     link: https://leanprover.zulipchat.com/
     desc: hosts real-time discussion among Lean users and developers
   - name: Coq Zulip
     link: https://coq.zulipchat.com/
     desc: hosts discussion around Rocq, formal proofs and verified software
+  - name: Proof Assistants Stack Exchange
+    link: https://proofassistants.stackexchange.com/
+    desc: hosts questions and answers about theorem provers and formalised mathematics
+  - name: Mathlib
+    link: https://github.com/leanprover-community/mathlib4
+    desc: develops a large collaborative library of formalised mathematics in Lean
   - name: SageMath Community
     link: https://www.sagemath.org/help-groups.html
     desc: connects SageMath users through forums, mailing lists and chat
@@ -1139,18 +1082,9 @@
   - name: Math Educators Stack Exchange
     link: https://matheducators.stackexchange.com/
     desc: hosts discussion about teaching and learning mathematics
-  - name: Mathematics Genealogy Project
-    link: https://www.mathgenealogy.org/
-    desc: records academic mentorship relationships among mathematicians
-  - name: Polymath Projects
-    link: https://en.wikipedia.org/wiki/Polymath_Project
-    desc: organises open online collaborations on mathematical research problems
   - name: OEIS Community
     link: https://oeis.org/wiki/Welcome
     desc: maintains and discusses the shared catalogue of integer sequences
-  - name: Mathlib
-    link: https://github.com/leanprover-community/mathlib4
-    desc: develops a large collaborative library of formalised mathematics in Lean
   - name: Women in Mathematics Network
     link: https://www.wimnetwork.org/
     desc: connects and supports women working in mathematics
@@ -1160,9 +1094,76 @@
   - name: Mathematics Without Borders
     link: https://www.mathematicswithoutborders.com/
     desc: brings students together through an international mathematics competition community
-  - name: Math Circles
-    link: https://mathcircles.org/
-    desc: brings students and mathematicians together for exploratory problem solving
-  - name: Global Math Project
-    link: https://globalmathproject.org/
-    desc: coordinates worldwide public participation in shared mathematical activities
+- youtubes:
+  - name: 3Blue1Brown
+    link: https://www.youtube.com/@3blue1brown
+    desc: builds visual intuition for mathematical ideas through animated exposition
+  - name: Numberphile
+    link: https://www.youtube.com/@numberphile
+    desc: explores mathematical stories, people and curiosities through interviews
+  - name: Stand-up Maths
+    link: https://www.youtube.com/@standupmaths
+    desc: explores recreational mathematics, puzzles and mathematical experiments
+  - name: Professor Leonard
+    link: https://www.youtube.com/@ProfessorLeonard
+    desc: provides long-form classroom lectures in calculus and related subjects
+  - name: Eddie Woo
+    link: https://www.youtube.com/@misterwootube
+    desc: explains school mathematics through clear classroom-style lessons
+  - name: Mathologer
+    link: https://www.youtube.com/@Mathologer
+    desc: develops deep but accessible explorations of elegant mathematics
+  - name: Michael Penn
+    link: https://www.youtube.com/@MichaelPennMath
+    desc: solves mathematical problems and teaches university-level topics
+  - name: blackpenredpen
+    link: https://www.youtube.com/@blackpenredpen
+    desc: solves calculus, algebra and olympiad-style problems on camera
+  - name: Dr Peyam
+    link: https://www.youtube.com/@DrPeyam
+    desc: teaches university mathematics through lectures and problem solving
+  - name: Flammable Maths
+    link: https://www.youtube.com/@FlammableMaths
+    desc: explains undergraduate mathematics with humour and worked examples
+  - name: Wrath of Math
+    link: https://www.youtube.com/@WrathofMath
+    desc: teaches proofs, discrete mathematics and foundational topics
+  - name: The Bright Side of Mathematics
+    link: https://www.youtube.com/@brightsideofmaths
+    desc: provides systematic lecture series in rigorous university mathematics
+  - name: Reducible
+    link: https://www.youtube.com/@Reducible
+    desc: explains the mathematics underlying algorithms and computer science
+  - name: Zach Star
+    link: https://www.youtube.com/@zachstar
+    desc: connects mathematics with engineering, physics and careers
+  - name: PBS Infinite Series
+    link: https://www.youtube.com/@pbsinfiniteseries
+    desc: explores higher mathematics for a broad public audience
+  - name: Tibees
+    link: https://www.youtube.com/@tibees
+    desc: discusses mathematics, physics, education and historical examinations
+  - name: Eigenchris
+    link: https://www.youtube.com/@eigenchris
+    desc: teaches tensors, relativity, linear algebra and differential equations visually
+  - name: Aleph 0
+    link: https://www.youtube.com/@Aleph0
+    desc: explores advanced mathematical ideas through concise animated videos
+  - name: Richard E. Borcherds
+    link: https://www.youtube.com/@richarde.borcherds7998
+    desc: publishes full graduate lectures across algebra, geometry and number theory
+  - name: MIT OpenCourseWare
+    link: https://www.youtube.com/@mitocw
+    desc: publishes complete university courses from MIT
+  - name: Harvard Math
+    link: https://www.youtube.com/@HarvardMath
+    desc: publishes public lectures, seminars and departmental events
+  - name: Oxford Mathematics
+    link: https://www.youtube.com/@OxfordMathematics
+    desc: publishes lectures, interviews and mathematical outreach
+  - name: UC Berkeley Math
+    link: https://www.youtube.com/@UCBerkeleyMath
+    desc: publishes seminars, lectures and departmental recordings
+  - name: Simons Institute
+    link: https://www.youtube.com/@SimonsInstituteTOC
+    desc: publishes research talks in theoretical computer science and related mathematics

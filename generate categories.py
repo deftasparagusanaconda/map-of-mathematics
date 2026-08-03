@@ -40,3 +40,19 @@ def generate_html(category_name, table):
 for category_name, category in zip(category_names, the_stuff):
     with open(f'{category_name}/index.html', 'w') as file:
         file.write(generate_html(category_name, generate_table(category)))
+
+links = []
+for dicty in the_stuff:
+    for category_name, entries in dicty.items():
+        for entry in entries:
+            links.append(entry['link'])
+
+if len(links) != len(set(links)):
+    from collections import Counter
+    print(f'a few repeated links:\n' + '\n'.join(str(link) for link, count in Counter(links).items() if count > 1))
+
+for dicty in the_stuff:
+    category_name, entries = next(iter(dicty.items()))
+
+    if len(entries) != 24:
+        print(f'{category_name} has {len(entries)} entries')
