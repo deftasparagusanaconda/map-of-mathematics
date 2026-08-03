@@ -1166,99 +1166,76 @@
   - name: Simons Institute
     link: https://www.youtube.com/@SimonsInstituteTOC
     desc: publishes research talks in theoretical computer science and related mathematics
-- maps:
+- map:
   - name: daa's map of mathematics
     link: https://deftasparagusanaconda.github.io/map-of-mathematics/
     desc: curated atlas of mathematical culture through books, software, journals, people and more
-
   - name: awesome-math
     link: https://github.com/rossant/awesome-math
     desc: curated list of mathematical learning resources, software and references
-
   - name: OSSU Computer Science
     link: https://github.com/ossu/computer-science
     desc: complete self-guided computer science curriculum using freely available resources
-
   - name: Teach Yourself Computer Science
     link: https://teachyourselfcs.com/
     desc: curated guide to a traditional computer science education through selected textbooks
-
   - name: roadmap.sh
     link: https://roadmap.sh/
     desc: visual learning roadmaps covering many computing disciplines
-
   - name: The Missing Semester
     link: https://missing.csail.mit.edu/
     desc: teaches practical computing skills often omitted from university courses
-
   - name: Papers We Love
     link: https://github.com/papers-we-love/papers-we-love
     desc: curated collection of influential computer science papers
-
   - name: Awesome
     link: https://github.com/sindresorhus/awesome
     desc: directory of community-maintained curated lists across thousands of topics
-
   - name: Class Central
     link: https://www.classcentral.com/
     desc: catalogue of online courses from universities and educational platforms
-
   - name: Open Syllabus
     link: https://opensyllabus.org/
     desc: analyses university syllabi to reveal widely taught books and resources
-
   - name: Open Culture
     link: https://www.openculture.com/
     desc: curated collection of free educational resources, courses and books
-
   - name: MIT OpenCourseWare
     link: https://ocw.mit.edu/
     desc: freely available university courses across mathematics, science and engineering
-
   - name: Open Textbook Library
     link: https://open.umn.edu/opentextbooks/
     desc: catalogue of peer-reviewed open textbooks
-
   - name: Internet Archive Scholar
     link: https://scholar.archive.org/
     desc: search engine for scholarly literature preserved by the Internet Archive
-
   - name: RefSeek
     link: https://www.refseek.com/
     desc: search engine focused on academic and educational resources
-
   - name: WorldCat
     link: https://worldcat.org/
     desc: discover books and library holdings around the world
-
   - name: Library Genesis
     link: https://libgen.is/
     desc: widely used index of scientific books and papers
-
   - name: DOAB
     link: https://www.doabooks.org/
     desc: directory of open-access academic books
-
   - name: DOAJ
     link: https://doaj.org/
     desc: directory of peer-reviewed open-access journals
-
   - name: Wikiversity
     link: https://www.wikiversity.org/
     desc: collaborative educational resources and learning projects
-
   - name: Khan Academy
     link: https://www.khanacademy.org/
     desc: structured learning paths across school and university subjects
-
   - name: Coursera
     link: https://www.coursera.org/
     desc: university and industry courses organised by discipline and skill
-
   - name: edX
     link: https://www.edx.org/
     desc: online university courses from institutions worldwide
-
   - name: FutureLearn
     link: https://www.futurelearn.com/
     desc: curated catalogue of university and professional online courses
