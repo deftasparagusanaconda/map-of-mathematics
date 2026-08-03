@@ -1,4 +1,4 @@
-- fields:
+- field:
   - name: logic
     link: https://en.wikipedia.org/wiki/Mathematical_logic
     desc: formal reasoning, proof, computability, foundations of mathematics
@@ -144,7 +144,7 @@
   - name: Iverson bracket
     link: https://en.wikipedia.org/wiki/Iverson_bracket
     desc: convert logical statements into numerical values
-- theorems:
+- theorem:
   - name: Pythagorean Theorem
     link: https://en.wikipedia.org/wiki/Pythagorean_theorem
     desc: relates the side lengths of a right triangle
@@ -217,7 +217,7 @@
   - name: Euler's Formula
     link: https://en.wikipedia.org/wiki/Euler's_formula
     desc: connects complex exponentials with sine and cosine
-- problems:
+- problem:
   - name: Riemann Hypothesis
     link: https://en.wikipedia.org/wiki/Riemann_hypothesis
     desc: does every nontrivial zero of the zeta function have real part one half?
@@ -290,7 +290,7 @@
   - name: Hadwiger Conjecture
     link: https://en.wikipedia.org/wiki/Hadwiger_conjecture
     desc: relates graph colouring to the existence of complete graph minors
-- persons:
+- person:
   - name: Euclid
     link: https://en.wikipedia.org/wiki/Euclid
     desc: systematised classical geometry through definitions, axioms and proofs
@@ -363,7 +363,7 @@
   - name: Terence Tao
     link: https://en.wikipedia.org/wiki/Terence_Tao
     desc: contributes broadly across analysis, number theory, combinatorics and partial differential equations
-- books:
+- book:
   - name: Elements (Euclid)
     link: https://en.wikipedia.org/wiki/Euclid%27s_Elements
     desc: organises classical geometry into definitions, propositions and proofs
@@ -436,7 +436,7 @@
   - name: The Road to Reality
     link: https://en.wikipedia.org/wiki/The_Road_to_Reality
     desc: surveys the mathematics underlying modern theoretical physics
-- journals:
+- journal:
   - name: Annals of Mathematics
     link: https://annals.math.princeton.edu/
     desc: highly selective research across pure mathematics
@@ -509,7 +509,7 @@
   - name: The Fibonacci Quarterly
     link: https://www.fq.math.ca/
     desc: research on Fibonacci numbers and related integer sequences
-- websites:
+- website:
   - name: Wikipedia
     link: https://wikipedia.org
     desc: broad introductory references for mathematical concepts and culture
@@ -582,8 +582,7 @@
   - name: NRICH
     link: https://nrich.maths.org/
     desc: exploratory mathematical problems for school and university learners
-
-- softwares:
+- software:
   - name: SageMath
     link: https://www.sagemath.org/
     desc: combines many open-source mathematical systems behind a common interface
@@ -656,7 +655,7 @@
   - name: Jupyter
     link: https://jupyter.org/
     desc: combine executable code, mathematics, prose in interactive notebooks
-- catalogues:
+- catalogue:
   - name: OEIS
     link: https://oeis.org/
     desc: catalogues integer sequences with formulas, references, programs and cross-links
@@ -729,7 +728,7 @@
   - name: OR-Library
     link: http://people.brunel.ac.uk/~mastjjb/jeb/info.html
     desc: collects test data for operations-research problems and algorithms
-- organisations:
+- organisation:
   - name: International Mathematical Union
     link: https://www.mathunion.org/
     desc: coordinates international cooperation and major global activities in mathematics
@@ -802,7 +801,7 @@
   - name: CIMPA
     link: https://www.cimpa.info/
     desc: supports mathematical research and training in developing regions
-- universities:
+- university:
   - name: University of Cambridge
     link: https://www.maths.cam.ac.uk/
     desc: hosts a historically influential and broad mathematical research community
@@ -875,7 +874,7 @@
   - name: New York University
     link: https://math.nyu.edu/
     desc: hosts the Courant Institute and major research in analysis, applied mathematics and geometry
-- awards:
+- award:
   - name: Fields Medal
     link: https://en.wikipedia.org/wiki/Fields_Medal
     desc: outstanding mathematical achievement by researchers under the age of forty
@@ -948,7 +947,7 @@
   - name: L'Oréal-UNESCO For Women in Science Award
     link: https://en.wikipedia.org/wiki/L'Or%C3%A9al-UNESCO_For_Women_in_Science_Awards
     desc: distinguished women researchers across the sciences including mathematics
-- competitions:
+- competition:
   - name: International Mathematical Olympiad
     link: https://www.imo-official.org/
     desc: brings together secondary-school students for an annual international proof-solving competition
@@ -1021,7 +1020,7 @@
   - name: International Zhautykov Olympiad
     link: https://en.wikipedia.org/wiki/International_Zhautykov_Olympiad
     desc: combines mathematics, physics and informatics competitions for specialised schools
-- communities:
+- community:
   - name: Art of Problem Solving
     link: https://artofproblemsolving.com/community
     desc: brings together students and enthusiasts around olympiad mathematics and problem solving
@@ -1094,7 +1093,7 @@
   - name: Mathematics Without Borders
     link: https://www.mathematicswithoutborders.com/
     desc: brings students together through an international mathematics competition community
-- youtubes:
+- youtube:
   - name: 3Blue1Brown
     link: https://www.youtube.com/@3blue1brown
     desc: builds visual intuition for mathematical ideas through animated exposition
