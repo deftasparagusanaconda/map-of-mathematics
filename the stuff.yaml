@@ -1239,3 +1239,76 @@
   - name: FutureLearn
     link: https://www.futurelearn.com/
     desc: curated catalogue of university and professional online courses
+- technique:
+  - name: mathematical induction
+    link: https://en.wikipedia.org/wiki/Mathematical_induction
+    desc: proves statements by establishing a base case and inductive step
+  - name: proof by contradiction
+    link: https://en.wikipedia.org/wiki/Proof_by_contradiction
+    desc: proves a statement by deriving a contradiction from its negation
+  - name: proof by contrapositive
+    link: https://en.wikipedia.org/wiki/Contraposition
+    desc: proves an implication by proving its contrapositive
+  - name: proof by cases
+    link: https://en.wikipedia.org/wiki/Proof_by_cases
+    desc: proves a statement by considering every possible case
+  - name: direct proof
+    link: https://en.wikipedia.org/wiki/Direct_proof
+    desc: derives the conclusion directly from the assumptions
+  - name: construction
+    link: https://en.wikipedia.org/wiki/Existence_theorem
+    desc: proves existence by explicitly constructing an example
+  - name: extremal principle
+    link: https://en.wikipedia.org/wiki/Extremal_principle
+    desc: reasons using a maximal or minimal element
+  - name: pigeonhole principle
+    link: https://en.wikipedia.org/wiki/Pigeonhole_principle
+    desc: proves existence by comparing objects with containers
+  - name: double counting
+    link: https://en.wikipedia.org/wiki/Double_counting_(proof_technique)
+    desc: counts the same quantity in two different ways
+  - name: diagonal argument
+    link: https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument
+    desc: constructs an object differing from every entry in a list
+  - name: infinite descent
+    link: https://en.wikipedia.org/wiki/Infinite_descent
+    desc: derives a contradiction from an infinite decreasing sequence
+  - name: invariants
+    link: https://en.wikipedia.org/wiki/Invariant_(mathematics)
+    desc: studies quantities that remain unchanged under operations
+  - name: monovariants
+    link: https://en.wikipedia.org/wiki/Monovariant
+    desc: uses a quantity that always changes in one direction
+  - name: probabilistic method
+    link: https://en.wikipedia.org/wiki/Probabilistic_method
+    desc: proves existence through probability
+  - name: generating functions
+    link: https://en.wikipedia.org/wiki/Generating_function
+    desc: transforms sequences into power series for analysis
+  - name: compactness
+    link: https://en.wikipedia.org/wiki/Compactness_theorem
+    desc: derives infinite results from finite consistency
+  - name: averaging argument
+    link: https://en.wikipedia.org/wiki/Average
+    desc: proves existence using the average value
+  - name: symmetry
+    link: https://en.wikipedia.org/wiki/Symmetry
+    desc: exploits symmetry to simplify mathematical reasoning
+  - name: colouring
+    link: https://en.wikipedia.org/wiki/Graph_coloring
+    desc: assigns colours to reveal combinatorial structure
+  - name: recursion
+    link: https://en.wikipedia.org/wiki/Recursion
+    desc: defines or analyses objects in terms of themselves
+  - name: greedy algorithm
+    link: https://en.wikipedia.org/wiki/Greedy_algorithm
+    desc: builds a solution by repeatedly making local choices
+  - name: divide and conquer
+    link: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+    desc: solves problems by recursively splitting them into subproblems
+  - name: dynamic programming
+    link: https://en.wikipedia.org/wiki/Dynamic_programming
+    desc: solves optimisation problems by storing intermediate results
+  - name: exchange argument
+    link: https://en.wikipedia.org/wiki/Exchange_argument
+    desc: proves optimality by replacing parts of a solution

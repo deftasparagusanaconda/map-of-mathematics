@@ -65,7 +65,7 @@ for dicty in the_stuff:
 
 
 # ---
-
+'''
 def generate_summary_table():
     categories = {
         category_name: entries
@@ -130,3 +130,4 @@ def generate_summary_table():
     return html
 
 print(generate_summary_table())
+'''
