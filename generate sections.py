@@ -20,13 +20,12 @@ def generate_html(category_name, table):
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<meta name="description" content="daa's map of mathematics">
-        <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-		<title>{category_name} · daa's map of mathematics</title>
+		<meta name="description" content="daa's Culture of Mathematics">
+		<title>Culture of Mathematics · {category_name}</title>
 	</head>
 	<body>
 		<header>
-			<h1 style="text-align: center;"><a href="https://github.com/deftasparagusanaconda" target="_blank">daa</a>'s <a href="../">map of mathematics</a></h1>
+			<h1 style="text-align: center;"><a href="https://github.com/deftasparagusanaconda" target="_blank">daa</a>'s <a href="../">Culture of Mathematics</a></h1>
 			<nav style="text-align: center;">
 {header_links}
 			</nav>
