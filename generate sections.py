@@ -9,7 +9,7 @@ def generate_table(category):
     category_name, entries = next(iter(category.items()))
     return '\t\t<table>' + ''.join(f'''\t\t\t<tr>
 \t\t\t\t<td><button type="button" class="progress" data-key="progress {category_name} {entry['name']}">🤨</button></td>
-\t\t\t\t<td><a href="{entry['link']}" target="_blank">{entry['name']}</a></td>
+\t\t\t\t<td><a href="{entry['link']}">{entry['name']}</a></td>
 \t\t\t\t<td>{entry['desc']}</td>
 \t\t\t</tr>
 ''' for entry in entries) + '\t\t</table>'
@@ -25,7 +25,7 @@ def generate_html(category_name, table):
 	</head>
 	<body>
 		<header>
-			<h1 style="text-align: center;"><a href="https://github.com/deftasparagusanaconda" target="_blank">daa</a>'s <a href="../">Culture of Mathematics</a></h1>
+			<h1 style="text-align: center;"><a href="https://github.com/deftasparagusanaconda">daa</a>'s <a href="../">Culture of Mathematics</a></h1>
 			<nav style="text-align: center;">
 {header_links}
 			</nav>
